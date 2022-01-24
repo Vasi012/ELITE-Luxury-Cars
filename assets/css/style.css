@@ -14,26 +14,27 @@ body {
 /* headings and logo */
 
 #logo {
-    overflow: hidden;
-    position: relative;
-    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
 /* navigation links (menu) */
-
 #menu {
-    font-size: 110%;
-    letter-spacing: 5px;
-}
-
-#logo, #menu {
-    line-height: 75px
+    font-size: 100%;
+    letter-spacing: 3px;
+    font-weight: bold;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    margin-top: 20px;
+}
+
+#logo, #menu {
+    line-height: 60px;
 }
 
 #menu a {
@@ -47,4 +48,19 @@ body {
 
 .active {
     border-bottom: 1px solid #000;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin-top: 0.7%;
+    padding: 25px;
+    color: #000;
 }
