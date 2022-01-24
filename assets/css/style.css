@@ -50,6 +50,7 @@ body {
     border-bottom: 1px solid #000;
 }
 
+/*social media network*/
 .social-networks {
     text-align: center;
 }
@@ -64,3 +65,13 @@ body {
     padding: 25px;
     color: #000;
 }
+
+/* animation when hover over */
+
+.grow li {
+    transition: all 1s ease-in-out;
+}
+li :hover {
+    transform: scale(1.3);
+}
+
