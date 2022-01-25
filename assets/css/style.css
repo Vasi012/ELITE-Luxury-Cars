@@ -155,9 +155,93 @@ li :hover {
 
 /* Car Logos*/
 
-#logo-hyperlink {
+#logo-hyperlink img {
+    width: 20%;
+    height: auto;
     margin-top: 10px;
-    height: 1px;
-    width: 1px;
+    margin-left: 20px;
 }
 
+#ferla .ferrari img {
+    width: 3%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 31.5%;
+    margin-bottom: 50px;
+}
+
+#ferla .lamborghini img {
+    width: 8.2%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 31%;
+    margin-bottom: 30px;
+}
+
+#bula .bugatti img {
+    width: 7%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 78%;
+}
+
+#mabe .bentley img {
+    width: 5.7%;
+    height: auto;
+    margin-left: 53%;
+    margin-top: 3%;
+}
+
+#bula .land-rover img {
+    width: 7%;
+    height: auto;
+    margin-left: 4%;
+}
+
+#mclarenn .mclaren img {
+    width: 10%;
+    height: auto;
+    margin-top: 0 auto;
+    margin-left: 46%;
+}
+
+#rome .mercedes img {
+    width: 4%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 25%
+}
+
+#popa .pagani img {
+    width: 6%;
+    height: auto;
+    margin-left: 54%;
+    margin-top: 5%;
+}
+
+#popa .porsche img {
+    width: 3.4%;
+    height: auto;
+    margin-left: 18.6%;
+    margin-top: 5%;
+}
+
+#rome .rolls-royce img {
+    width: 8%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 32%;
+}
+
+#tesla .tesla-pic img {
+    width: 3%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 49%;
+}
+
+#mabe .aston-martin img{
+    width: 7%;
+    height: auto;
+    margin-left: 17%;
+}
