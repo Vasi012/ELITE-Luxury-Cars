@@ -142,4 +142,13 @@ li :hover {
 
 /* Logo, hyperlinks & description */
 
+#content {
+    display: block;
+    padding-top: 20px;
+    padding-left: 750px;
+}
 
+.text-content {
+    padding-top: 2px;
+    padding-left: 95px;
+}
