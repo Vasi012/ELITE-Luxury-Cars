@@ -140,7 +140,7 @@ li :hover {
     position: absolute;
 }
 
-/* Logo, hyperlinks & description */
+/* hyperlinks & description */
 
 #content {
     display: block;
@@ -152,3 +152,12 @@ li :hover {
     padding-top: 2px;
     padding-left: 95px;
 }
+
+/* Car Logos*/
+
+#logo-hyperlink {
+    margin-top: 10px;
+    height: 1px;
+    width: 1px;
+}
+
