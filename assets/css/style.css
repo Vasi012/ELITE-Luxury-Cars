@@ -77,18 +77,20 @@ li :hover {
 
 /* hero image and cover text */
 
-#hero-mercedes {
-    height: 700px;
+#hero-colection {
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
     margin-top: 0 auto;
 }
 
-#picture-three {
-    height: 700px;
+#top-cars {
+    height: 800px;
     width: 100%;
-    background: url(../images/picture-three.png) no-repeat center center;
+    background: url(../images/top-cars.png) no-repeat center center;
+    background-size: cover;
+
 /*Animation when you load page*/
     animation: hero-zoom 3s;
     animation-fill-mode: forwards;
@@ -104,3 +106,40 @@ li :hover {
     }
     
 }
+
+/* Cover text header */
+
+#welcome {
+    color: #fffffff6;
+    font-size: 90%;
+    text-align: center;
+}
+
+#logo2 {
+    padding: 0 auto;
+    
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Public Sans;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 400px;
+    height: 180px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background-color: #1717178c;
+
+    bottom: 330px;
+    right: 750px;
+
+    position: absolute;
+}
+
+/* Logo, hyperlinks & description */
+
+
