@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -488,3 +489,57 @@ body {
     margin-right: 35%;
 
 }
+
+/*content about-us*/
+
+#cover-text-aboutus {
+    padding-top: 3%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#cover-text-aboutus h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: xx-large;
+}
+
+#cover-text-aboutus pre {
+    font-size: 20px;
+    font-family: 'Cuprum', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#p1{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+}
+#p2 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: right;
+}
+#p3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+}
+#p4{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: right;
+}
+
