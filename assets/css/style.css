@@ -383,3 +383,52 @@ body {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
+/*footer*/
+
+.footer {
+    background: #171717b9;
+    width: 100%;
+    
+}
+
+#footer1 {
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#right-about-footer {
+    float: right;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#left-about-footer {
+    font-size: 100%;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 3%;
+    margin-top: 0 auto;
+}
+
+#left-about-footer ol {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+#left-about-footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#left-about-footer a:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.active {
+    border-bottom:1px solid rgb(255, 255, 255);
+} 
