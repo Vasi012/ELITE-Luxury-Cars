@@ -377,3 +377,9 @@ body {
 
 /*Slider-container end*/
 
+/*Google Maps*/
+
+#map {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
