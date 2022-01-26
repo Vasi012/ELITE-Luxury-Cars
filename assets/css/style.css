@@ -545,7 +545,16 @@ body {
 
 }
 
-
-
+#contact-us-today {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    position: relative;
+}
+#contact-us-today .row {
+    height: 100px;
+    margin: auto;
+    width: 1px;
+    background-color: #cacaca;
+}
 
 
