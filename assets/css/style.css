@@ -495,7 +495,7 @@ body {
 #cover-text-aboutus {
     padding-top: 3%;
     text-align: center;
-    padding-bottom: 3%;
+    padding-bottom: 4px;
 }
 
 #cover-text-aboutus h1 {
@@ -510,36 +510,8 @@ body {
     padding-left: 10%;
 }
 
-#p1{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: left;
+#block-pre1 {
+    text-align: center;
 }
-#p2 {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: right;
-}
-#p3 {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: left;
-}
-#p4{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: right;
-}
+
 
