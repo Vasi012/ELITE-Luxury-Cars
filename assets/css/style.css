@@ -514,4 +514,38 @@ body {
     text-align: center;
 }
 
+/* Contact Us Page */
+#hero-contact {
+    background: url(../images/hero-contact.png) no-repeat center center;
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 1%;
+
+    animation: hero-zoom 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-contact {
+    float: right;
+    font-size: xxx-large;
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    margin-top: 22%;
+    margin-right: 10%;
+
+}
+
+
+
+
 
