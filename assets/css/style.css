@@ -518,7 +518,7 @@ body {
 #hero-contact {
     background: url(../images/hero-contact.png) no-repeat center center;
     height: 550px;
-    width: 100%;
+    width: 95.3%;
     overflow: hidden;
     position: relative;
     margin-top: 1%;
@@ -564,7 +564,7 @@ body {
 }
 
 .contact-us-details p {
-    font-size: 30px;
+    font-size: 5px;
     margin-left: 20%;
     font-family: 'Bebas Neue', cursive;
 }
@@ -573,25 +573,27 @@ body {
 
 #introduction {
     text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
 #contact-details{
     height: 600px;
     font-family: 'Bebas Neue', cursive;
-    font-size: xx-large;
-    letter-spacing: 2px;
+    font-size: large;
+    letter-spacing: 1px;
 
 }
 
 #left-contact{
     padding-top: 30px;
-    width: 33%;
+    width: 22%;
     float: left;
 }
 
 #right-contact {
     padding-top: 30px;
-    width: 33%;
+    width: 22%;
     float: right;
 }
 
@@ -633,15 +635,14 @@ hr {
 #center-logo {
     background: url(../images/luxury-cars.png) no repeat center center;
     height: 100%;
-    border-radius: 50%;
-    padding-top: 30%;
-    padding-left: 20%; 
-    width: 480%;
+    padding-top: 25%;
+    padding-left: 7%; 
+    width: 100%;
 }
 
 #find {
-    margin-top: 5%;
-    margin-left: 3%;
+    margin-top: 1%;
+    margin-left: 0 auto;
     margin-right: 3%;
     margin-bottom: 5%;
 }
@@ -654,50 +655,77 @@ hr {
 
 #find h2 {
     text-align: left;
-    font-size: 35px;
+    font-size: 25px;
     font-family: 'Bebas Neue', cursive;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 #find p {
     text-align: left;
     font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 5%;
 }
 
 #find hr {
     width: 70%;
+    margin-left: 5%;
 }
 
 /*book a test drive*/
 
 #hero-test-drive {
     background: url(../images/bookadrivetest.png) no-repeat center center;
-    height: 1200px;
+    height: 1000px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 2%;
-    margin-bottom: 1%;
-
-    animation: hero-zoom 3s;
-    animation-fill-mode: forwards;
-}
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
 }
 
-#cover-test-drivet {
-    float: right;
+#test-drive-now {
+    float: left;
     font-size: xxx-large;
     font-family: 'Bebas Neue', cursive;
     color: whitesmoke;
-    margin-top: 22%;
-    margin-right: 10%;
+    margin-top: 10%;
+    margin-left: 7%;
 
+}
+
+/*forum book a test drive*/
+
+input[type=text], [type=email], select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgba(34, 34, 34, 0.699);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 10px;
+    background-color: #868686;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15%;
+    position: relative;
 }
