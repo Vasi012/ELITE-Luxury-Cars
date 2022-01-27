@@ -639,3 +639,32 @@ hr {
     width: 480%;
 }
 
+#find {
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+}
+
+#find h1 {
+    margin-left: 43%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+#find h2 {
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 50px;
+}
+
+#find p {
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+#find hr {
+    width: 70%;
+}
