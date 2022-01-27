@@ -733,3 +733,38 @@ input[type=text], [type=email], select, textarea {
 #booking {
     color: rgba(34, 34, 34, 0.699);
 }
+
+/*Gallery pictures*/
+
+#hero-gallery {
+    background: url(../images/car-with-sky.png) no-repeat center center;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+    animation: gallery-zoom 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gallery-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-gallery {
+    float: right;
+    font-size: xxx-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(0, 0, 0, 0.637);
+    margin-top: 15%;
+    margin-right: 10%;
+
+}
+
