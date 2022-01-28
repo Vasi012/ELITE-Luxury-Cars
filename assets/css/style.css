@@ -958,4 +958,82 @@ footer #social-media {
     padding-right: 25px;
     padding-top: 10%;
 }
+/*about us page*/
+
+#hero-mclaren {
+    height: 20%;
+}
+#about-us {
+    font-size: 30px;
+}
+#cover-text-aboutus h1 {
+    font-size: 20px;
+    padding-top: 10%;
+}
+#cover-text-aboutus pre {
+    font-size: 15px;
+}
+#p4 {
+    padding-bottom: 10%;
+}
+#hero-contact {
+    height: 50%;
+}
+#contact-us {
+    font-size: 30px;
+}
+#introduction {
+    font-size: 20px;
+}
+.left-contact-heading h2 {
+    font-size: 20px;
+}
+.left-contact-heading p {
+    font-size: 15px;
+}
+#left-contact {
+    width: 77%;
+    margin-right: 50%;
+}
+#right-contact {
+    width: 77%;
+    font-size: 14px;
+}
+
+#right-contact p {
+    font-weight: bold;
+}
+#find h1 {
+    font-size: 20px;
+    margin-left: 35%;
+    padding-top: 45%;
+}
+#center-logo img {
+    max-width: 100%;
+}
+#find h2 {
+    font-size: 20px;
+}
+#find p {
+    font-size: 17px;
+}
+/*book a test drive*/
+#test-drive-now {
+    font-size: 25px;
+}
+.container {
+    width: 55%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+/*Gallery*/
+#gallery-access {
+    font-size: 20px;
+    text-align: center;
+}
+.header h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+}
 }
