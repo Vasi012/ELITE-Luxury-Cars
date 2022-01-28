@@ -300,7 +300,7 @@ hr {
 #slider-text {
     text-align: center;
     padding-top: 3%;
-    padding-bottom: 0.5%;
+    padding-bottom: 0 auto;
     font-family: 'Bebas Neue', cursive;
 }
 body {
@@ -371,14 +371,21 @@ body {
   .slide-5 {
       background-image: url("../images/slide3\ \(5\).png");
   }
-
+  #text-over-slider {
+      font-family: 'Times New Romans', sans-serif;
+      font-size: large;
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
   .paragraph-slider {
       font-family: 'Bebas Neue', cursive;
       font-size: solid;
-      padding-top: 45%;
+      padding-top: 41%;
       text-align: center;
       letter-spacing: 2px;
   }
+
 
 /*Slider-container end*/
 
