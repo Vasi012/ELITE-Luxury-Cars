@@ -84,7 +84,7 @@ li :hover {
 /* hero image and cover text */
 
 #hero-colection {
-    height: 800px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -144,8 +144,8 @@ li :hover {
 
     background-color: #1717178c;
 
-    bottom: 330px;
-    right: 750px;
+    bottom: 230px;
+    right: 630px;
 
     position: absolute;
 }
@@ -155,7 +155,7 @@ li :hover {
 #content {
     display: block;
     padding-top: 20px;
-    padding-left: 750px;
+    padding-left: 630px;
 }
 
 .text-content {
@@ -164,7 +164,7 @@ li :hover {
 }
 hr {
     border-top: 1px solid #d6d6d6;
-    width: 50%;
+    width: 20%;
     margin-left: 25%;
     margin-top: 3%
 }
