@@ -21,6 +21,10 @@ body {
     margin-top: 8px;
 }
 
+#logo img {
+    width: 300px;
+}
+
 #logo a {
     width: 120%;
 }
@@ -376,9 +380,8 @@ body {
 /*Google Maps*/
 
 #map iframe {
-    padding-top: 5%;
     width: 100%;
-    height: 450px;
+    height: 453px;
 }
 
 /*footer*/
@@ -386,7 +389,7 @@ body {
 .footer {
     background: #171717b9;
     width: 100%;
-    height: 251px; 
+    height: 255px; 
 }
 
 #footer1 {
