@@ -453,59 +453,6 @@ body {
     border-bottom:1px solid rgb(255, 255, 255);
 } 
 
-
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-    #social-media {
-    float: right;
-    font-size: x-small;
-    padding-bottom: 1%;
-}
-#cover-text {
-    right: 175px;
-}
-#content {
-    padding-left: 190px;
-}
-.slider-container {
-    height: 428px;
-}
-#right-about-logo {
-    padding-top: 20%;
-}
-#right-about-logo .fa-crown {
-    padding-left: 47%;
-    padding-right: 48%;
-
-}
-/*about us page*/
-
-#about-us {
-    color: #f3f3f3;
-    margin-top: 80%;
-}
-.text-aboutus pre {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    text-align: center;
-    margin-right: 9%;
-}
-/*contact-us page*/
-
-#find h1 {
-    margin-right: 30%;
-}
-/*gallery page*/
-#gallery-access {
-    font-size: 40px;
-    padding-top: 65%;
-}
-#hero-gallery {
-    height: 379px;
-}
-
-}
-
 /* ABOUT US PAGE */
 
 /*hero image and cover text*/
@@ -819,4 +766,196 @@ margin-left: 20%;
 }
 .column {
     margin-left: 20%;
+}
+
+/*Media queries*/
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+    #social-media {
+    float: right;
+    font-size: x-small;
+    padding-bottom: 1%;
+}
+#cover-text {
+    right: 175px;
+}
+#content {
+    padding-left: 190px;
+}
+.slider-container {
+    height: 428px;
+}
+#right-about-logo {
+    padding-top: 20%;
+}
+#right-about-logo .fa-crown {
+    padding-left: 47%;
+    padding-right: 48%;
+
+}
+/*about us page*/
+
+#about-us {
+    color: #f3f3f3;
+    margin-top: 80%;
+}
+.text-aboutus pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: center;
+    margin-right: 9%;
+}
+/*contact-us page*/
+
+#find h1 {
+    margin-right: 30%;
+}
+/*gallery page*/
+#gallery-access {
+    font-size: 40px;
+    padding-top: 65%;
+}
+#hero-gallery {
+    height: 379px;
+}
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+#logo {
+    width: 200px;
+    height: 120px;
+    margin-left: 25%;
+}
+#logo {
+    width: 250px;
+    height: 10px;
+}
+#menu {
+    clear: both;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 5%;
+    margin-top: 6%;
+    padding-left: 10%;
+}
+#social-media {
+    display: none;
+}
+
+#cover-text {
+    right: 57px;
+    width: 70%;
+    height: 15%;
+}
+#content {
+    padding-left: 0;
+    padding-right: 10%;
+}
+#content img {
+    width: 50%;
+    padding-left: 30%;
+}
+
+#ferla .ferrari img { 
+    width: 25%;
+    padding-left: 9%;
+}
+
+#ferla .lamborghini img { 
+    width: 60%;
+    padding-left: 6.8%;
+}
+#mclarenn .mclaren img {
+    width: 50%;
+    margin-left: 26%;
+}
+#mabe .aston-martin img {
+    width: 50%;
+    margin-left: 26%;
+}
+#mabe .bentley img {
+    width: 50%;
+    margin-left: 26.2%;
+}
+#bula .land-rover img {
+    width: 50%;
+    margin-left: 26%;
+}
+#bula .bugatti img {
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 0 auto;
+}
+.cotext {
+    font-size: 1.25rem;
+}
+.paragraph {
+    font-size: 1rem;
+}
+.btn {
+    width: 30%;
+    padding-top: 20px;
+}
+#popa .porsche img {
+    width: 24%;
+    margin-left: 37.3%;
+}
+#popa .pagani img {
+    width: 30%;
+    margin-left: 35.5%;
+}
+#rome .rolls-royce img {
+    width: 45%;
+    margin-left: 8.6%;
+}
+#rome .mercedes img {
+    width: 25%;
+}
+#tesla .tesla-pic img {
+    width: 20%;
+    margin-left: 40%;
+}
+#slider-text {
+    font-size: 20px;
+}
+#text-over-slider {
+    font-size: 15px;
+}
+#map {
+   margin-top: 42.5%; 
+}
+.footer {
+    padding-top: 0;
+    padding-bottom: 24%;
+}
+
+#right-about-footer h2 {
+    font-size: 18px;
+    font-size: 'Cuprum', sans-serif;
+}
+#right-about-footer p {
+    font-size: 14px;
+    font-size: 'Cuprum', sans-serif;
+}
+#left-about-footer h3 {
+    font-size: 15px;
+    padding-top: 0%;
+    padding-left: 1px;
+}
+#paragraph-footer {
+    padding-top: 15%;
+    font-size: 10px;
+    padding-left: 0;
+}
+.fa-crown {
+    font-size: 0.1px;
+}
+footer #social-media {
+    display: inline;
+    padding-right: 25px;
+    padding-top: 10%;
+}
 }
