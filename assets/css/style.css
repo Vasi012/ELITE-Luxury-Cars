@@ -88,7 +88,7 @@ li :hover {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 0 auto;
+    margin-top: 0;
 }
 
 #top-cars {
@@ -124,7 +124,7 @@ li :hover {
 }
 
 #logo2 {
-    padding: 0 auto;
+    padding: 0;
     padding-left: 9%;
     width: 100%;
     
@@ -132,7 +132,7 @@ li :hover {
 
 #cover-text {
     font-size: 130%;
-    font-family: Public Sans;
+    font-family: 'Public Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -177,14 +177,12 @@ hr {
 
 #logo-hyperlink img {
     width: 20%;
-    height: auto;
     margin-top: 10px;
     margin-left: 20px;
 }
 
 #ferla .ferrari img {
     width: 5%;
-    height: auto;
     margin-top: 1%;
     margin-left: 28.5%;
     margin-bottom: 50px;
@@ -192,7 +190,6 @@ hr {
 
 #ferla .lamborghini img {
     width: 14%;
-    height: auto;
     margin-top: 1px;
     margin-left: 32%;
     margin-bottom: 30px;
@@ -200,69 +197,59 @@ hr {
 
 #bula .bugatti img {
     width: 10%;
-    height: auto;
     margin-top: 1%;
     margin-left: 75%;
 }
 
 #mabe .bentley img {
     width: 8%;
-    height: auto;
     margin-left: 49%;
     margin-top: 1%;
 }
 
 #bula .land-rover img {
     width: 10%;
-    height: auto;
     margin-left: 4%;
 }
 
 #mclarenn .mclaren img {
     width: 10%;
-    height: auto;
-    margin-top: 0 auto;
+    margin-top: 0;
     margin-left: 45%;
 }
 
 #rome .mercedes img {
     width: 6.5%;
-    height: auto;
     margin-top: 1%;
     margin-left: 18%
 }
 
 #popa .pagani img {
     width: 9%;
-    height: auto;
     margin-left: 52%;
     margin-top: 1%;
 }
 
 #popa .porsche img {
     width: 6%;
-    height: auto;
     margin-left: 17.7%;
     margin-top: 1%;
 }
 
 #rome .rolls-royce img {
     width: 13%;
-    height: auto;
     margin-top: 1%;
     margin-left: 32%;
 }
 
 #tesla .tesla-pic img {
     width: 5%;
-    height: auto;
     margin-top: 1%;
     margin-left: 47.9%;
 }
 
 #mabe .aston-martin img{
     width: 11%;
-    height: auto;
     margin-left: 16%;
 }
 
@@ -300,14 +287,12 @@ hr {
 #slider-text {
     text-align: center;
     padding-top: 3%;
-    padding-bottom: 0 auto;
     font-family: 'Bebas Neue', cursive;
 }
 body {
     width: 100%;
     height: 90%;
     margin: 0 auto;
-    padding: 0 auto;
   }
   img {
     max-width: 80%;
@@ -380,7 +365,6 @@ body {
   }
   .paragraph-slider {
       font-family: 'Bebas Neue', cursive;
-      font-size: solid;
       padding-top: 41%;
       text-align: center;
       letter-spacing: 2px;
@@ -393,7 +377,6 @@ body {
 
 #map {
     padding-top: 5%;
-    padding-bottom: 0 auto;
 }
 
 /*footer*/
@@ -416,9 +399,7 @@ body {
     float: right;
     font-family: 'Bebas Neue', cursive;
     margin-right: 2%;
-    margin-top: 0 auto;
     color:whitesmoke;
-    list-style-type: 0;
     text-decoration: none;
 }
 #right-about-footer h2 {
@@ -440,7 +421,6 @@ body {
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
     margin-left: 2%;
-    margin-top: 0 auto;
 }
 
 #left-about-footer ol {
@@ -462,6 +442,61 @@ body {
 .active {
     border-bottom:1px solid rgb(255, 255, 255);
 } 
+
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+    #social-media {
+    float: right;
+    font-size: x-small;
+    padding-bottom: 1%;
+}
+#cover-text {
+    right: 175px;
+}
+#content {
+    padding-left: 190px;
+}
+.slider-container {
+    height: 428px;
+}
+#right-about-logo {
+    padding-top: 20%;
+}
+#right-about-logo .fa-crown {
+    padding-left: 47%;
+    padding-right: 48%;
+}
+/*about us page*/
+
+#about-us {
+    color: #f3f3f3;
+    margin-top: 80%;
+}
+.text-aboutus pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: center;
+    margin-right: 9%;
+}
+/*contact-us page*/
+
+#find h1 {
+    margin-right: 30%;
+}
+/*gallery page*/
+#gallery-access {
+    font-size: 40px;
+    padding-top: 65%;
+}
+#hero-gallery {
+    height: 379px;
+}
+
+#gallery {
+    column-count: 2;
+}
+}
 
 /* ABOUT US PAGE */
 
@@ -553,15 +588,9 @@ body {
 
 }
 
-.footer {
-    margin-top: 0 auto;
-}
-
 #map-and-details iframe {
     width: 40%;
     height: 450px;
-    border-style: 2;
-    border-top: 50%;
 }
 
 .contact-us-details h1 {
@@ -640,7 +669,9 @@ hr {
 }
 
 #center-logo {
-    background: url(../images/luxury-cars.png) no repeat center center;
+    background: url(../images/luxury-cars.png);
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 100%;
     padding-top: 25%;
     padding-left: 7%; 
@@ -649,7 +680,7 @@ hr {
 
 #find {
     margin-top: 1%;
-    margin-left: 0 auto;
+    margin-left: 0;
     margin-right: 3%;
     margin-bottom: 5%;
 }
@@ -687,8 +718,6 @@ hr {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 0 auto;
-    margin-bottom: 0 auto;
 }
 
 #test-drive-now {
@@ -786,6 +815,6 @@ input[type=text], [type=email], select, textarea {
     margin-right: 1%;
 }
 
-#gallery img{
+#gallery img {
     width: 100%;
 }
