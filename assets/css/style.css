@@ -375,8 +375,10 @@ body {
 
 /*Google Maps*/
 
-#map {
+#map iframe {
     padding-top: 5%;
+    width: 100%;
+    height: 450px;
 }
 
 /*footer*/
@@ -413,6 +415,11 @@ body {
 #paragraph-footer {
     text-align: center;
     padding-left: 5.6%;
+    color: whitesmoke;
+    font-family: 'Public Sans', sans-serif;
+}
+.fa-crown {
+    color:whitesmoke;
 }
 
 #left-about-footer {
@@ -466,6 +473,7 @@ body {
 #right-about-logo .fa-crown {
     padding-left: 47%;
     padding-right: 48%;
+
 }
 /*about us page*/
 
@@ -588,8 +596,8 @@ body {
 
 }
 
-#map-and-details iframe {
-    width: 40%;
+.map-and-details iframe {
+    width: 100%;
     height: 450px;
 }
 
@@ -669,12 +677,11 @@ hr {
 }
 
 #center-logo {
-    background: url(../images/luxury-cars.png);
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
     padding-top: 25%;
-    padding-left: 7%; 
+    padding-left: 13%; 
     width: 100%;
 }
 
@@ -717,7 +724,7 @@ hr {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    z-index: -1;
 }
 
 #test-drive-now {
@@ -763,7 +770,7 @@ input[type=text], [type=email], select, textarea {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 12%;
-    margin-bottom: 0%;
+    margin-bottom: 2%;
 }
 
 #booking {
