@@ -769,6 +769,23 @@ margin-left: 20%;
     margin-left: 20%;
 }
 
+/* 404 page */
+
+.text-center {
+    text-align: center;
+    color: #000;
+    width: 30%;
+}
+
+.return-to-home a {
+    font-size: 2rem;
+    color: #000;
+}
+    
+.return-to-home a:hover {
+    color: #ffa500;
+}
+
 /*Media queries*/
 
 /* For medium screens sizes from 950px wide and down */
