@@ -195,7 +195,7 @@ hr {
 }
 
 #ferla .lamborghini img {
-    width: 14%;
+    width: 6%;
     margin-top: 1px;
     margin-left: 32%;
     margin-bottom: 30px;
@@ -454,6 +454,10 @@ body {
 .active {
     border-bottom:1px solid rgb(255, 255, 255);
 } 
+
+#footer-button {
+    display: none;
+}
 
 /* ABOUT US PAGE */
 
@@ -889,6 +893,10 @@ margin-left: 20%;
     width: 250px;
     height: 10px;
 }
+
+#logo img {
+    margin-top: 9%;
+}
 #menu {
     clear: both;
     white-space: nowrap;
@@ -939,12 +947,12 @@ margin-left: 20%;
 }
 
 #ferla .lamborghini img { 
-    width: 60%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 148px;
+    margin: auto;
 }
 #mclarenn .mclaren img {
     width: 50%;
@@ -1139,14 +1147,16 @@ footer #social-media {
 }
 #find h1 {
     font-size: 20px;
-    margin-left: 35%;
-    padding-top: 45%;
+    margin-left: 31%;
+    display: revert;
 }
 #center-logo img {
     max-width: 100%;
+    padding-top: 22%;
 }
 #find h2 {
     font-size: 20px;
+    padding-top: 6%;
 }
 #find p {
     font-size: 17px;
@@ -1169,5 +1179,83 @@ footer #social-media {
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 20px;
+}
+}
+/* For small screens sizes from 700px wide and down */
+@media screen and (min-width: 700px){
+#menu {
+    font-size: small;
+}
+#cover-text {
+    height: 25%;
+}
+.slide {
+    padding: none;
+}
+.paragraph-slider {
+    padding-top: 10%;
+}
+#paragraph-footer {
+    padding-left: 6%;
+    padding-top: 9%;
+}
+}
+
+/* For small screens sizes from 1024px wide and down */
+@media screen and (min-width: 1024px){
+.social-networks i {
+    font-size: 109%;
+    margin-top: 1.7%;
+
+}
+#cover-text {
+    right: 307px;
+}
+.paragraph-slider {
+    padding-top: 68%;
+}
+#paragraph-footer {
+    padding-top: 6%;
+}
+#right-about-logo {
+    display: none;  
+}
+#cover-text-aboutus pre {
+    padding-left: 0;
+}
+}
+
+/* For small screens sizes from 1440px wide and down */
+@media screen and (min-width: 1440px){
+    #cover-text {
+    right: 489px;
+    }
+.paragraph-slider {
+    padding-top: 50.5%;
+}
+#paragraph-footer {
+    padding-top: 3%;
+}
+}
+/* For small screens sizes from 2560px wide and down */
+@media screen and (min-width: 2560px){
+#cover-text {
+    right: 40%;
+}
+.social-networks i {
+    margin-top: 0;
+}
+#paragraph-footer {
+    padding-top: 0.5%;
+    padding-right: 7%;
+}
+#hero-mclaren {
+    width: 100%;
+}
+#hero-contact {
+    width: 100%;
+}
+#test-drive-now {
+    margin-left: 21%;
 }
 }
