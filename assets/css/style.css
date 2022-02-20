@@ -487,7 +487,8 @@ body {
     float: right;
     font-size: xxx-large;
     font-family: 'Bebas Neue', cursive;
-    color: whitesmoke;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
     margin-top: 20%;
     margin-right: 35%;
 
@@ -543,7 +544,7 @@ body {
     float: right;
     font-size: xxx-large;
     font-family: 'Bebas Neue', cursive;
-    color: whitesmoke;
+    color: #474747;
     margin-top: 22%;
     margin-right: 10%;
 
@@ -684,7 +685,8 @@ hr {
     float: left;
     font-size: xxx-large;
     font-family: 'Bebas Neue', cursive;
-    color: whitesmoke;
+    color: #000000;
+    background-color: #616161;
     margin-top: 5%;
     margin-left: 7%;
 
@@ -704,8 +706,8 @@ input[type=text], [type=email], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
-    color: whitesmoke;
+    background-color: #FFFFFF;
+    color: #000000;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -713,7 +715,8 @@ input[type=text], [type=email], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #000000;
+    color: #FFFFFF;
   }
   
   .container {
@@ -725,7 +728,10 @@ input[type=text], [type=email], select, textarea {
     margin-top: 12%;
     margin-bottom: 2%;
 }
-
+.container label {
+    color:#000000;
+    background-color: whitesmoke;
+}
 #booking {
     color: rgba(34, 34, 34, 0.699);
 }
@@ -1297,7 +1303,7 @@ footer #social-media {
 /* For small screens sizes from 950px wide and down */
 @media screen and (min-width: 950px){
 .paragraph-slider {
-    padding-top: 106%;
+    padding-top: 40%;
 }
 .social-networks {
     padding-top: 4%;
