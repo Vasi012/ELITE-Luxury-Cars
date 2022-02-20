@@ -1,3 +1,4 @@
+![ELC-Cars jpg](https://user-images.githubusercontent.com/96884287/154860989-e4170fac-98a8-4a11-8c61-4ef9d34caefe.png)
 # ELITE | Luxury Cars
 *ELITE* the website created to help people finding the right car for them.
 On the website you have the posibility to find your dream car where you can personalise the way you want it. Morover we have a variety of posible choices just for you. *ELITE | Luxury Cars* was created in order to have a strong relationship between the custumer and sales person. If you will like to choose your next car and meet our team you can click here (ADD FINAL DEMO LINK).
