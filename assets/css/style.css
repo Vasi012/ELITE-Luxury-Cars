@@ -17,12 +17,15 @@ body {
 
 #logo {
     float: left;
-    margin-left: 20px;
-    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
 }
 
 #logo img {
     width: 300px;
+    height: 63px;
 }
 
 #logo a {
@@ -40,7 +43,6 @@ body {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    margin-top: 20px;
 }
 
 #logo, #menu {
@@ -72,7 +74,6 @@ body {
 
 .social-networks i {
     font-size: 160%;
-    margin-top: 0.7%;
     padding: 25px;
     color: #000;
 }
@@ -101,6 +102,8 @@ li :hover {
     width: 100%;
     background: url(../images/top-cars.png) no-repeat center center;
     background-size: cover;
+    position: relative;
+    text-align: center;
 
 /*Animation when you load page*/
     animation: hero-zoom 3s;
@@ -140,19 +143,15 @@ li :hover {
     font-family: 'Public Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 400px;
     height: 180px;
-
-    padding-top: 20px;
     padding-bottom: 20px;
-
     background-color: #1717178c;
-
     bottom: 230px;
-    right: 760px;
-
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* hyperlinks & description */
@@ -162,17 +161,15 @@ li :hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 .text-content {
-    padding-top: 2px;
-    padding-left: 95px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
 }
 hr {
     border-top: 1px solid #d6d6d6;
-    width: 20%;
-    margin-left: 25%;
-    margin-top: 3%
 }
 
 /* Car Logos*/
@@ -299,25 +296,25 @@ body {
     width: 100%;
     height: 90%;
     margin: 0 auto;
-  }
-  img {
+}
+img {
     max-width: 80%;
-  }
-  .slider-container {
+}
+.slider-container {
     height: 85%;
     width: 100%;
     position: absolute;
     overflow: hidden;
     text-align: center;
-  }
-  .menu {
+}
+.menu {
     position: absolute;
     left: 0;
     z-index: 900;
     width: 100%;
     bottom: 0;
-  }
-  .menu label {
+}
+.menu label {
     cursor: pointer;
     display: inline-block;
     width: 16px;
@@ -325,56 +322,53 @@ body {
     background: #fff;
     border-radius: 50px;
     margin: 0 0.2em 1em;
-  }
-  .menu label:hover,
-  .menu label:focus {
+}
+.menu label:hover,
+.menu label:focus {
     background: #1c87c9;
-  }
-  .slide {
+}
+.slider-container {
+    position: relative;
+    padding-bottom: 50%;
+}
+.slide {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 100%;
     z-index: 10;
-    padding: 8em 1em 0;
     background-size: cover;
     background-position: 50% 50%;
     transition: left 0s 0.75s;
-  }
+}
   [id^="slide"]:checked + .slide {
     left: 0;
     z-index: 100;
     transition: left 0.65s ease-out;
-  }
-  .slide-1 {
+}
+.slide-1 {
     background-image: url("../images/slide3\ \(1\).png");
-  }
-  .slide-2 {
+}
+.slide-2 {
     background-image: url("../images/slide3\ \(2\).png");
-  }
-  .slide-3 {
+}
+.slide-3 {
     background-image: url("../images/slide3\ \(3\).png");
-  }
-  .slide-4 {
+}
+.slide-4 {
     background-image: url("../images/slide3\ \(4\).png");
-  }
-  .slide-5 {
-      background-image: url("../images/slide3\ \(5\).png");
-  }
-  #text-over-slider {
-      font-family: 'Times New Romans', sans-serif;
-      font-size: large;
-      text-align: center;
-      margin-left: 10%;
-      margin-right: 10%;
-  }
-  .paragraph-slider {
-      font-family: 'Bebas Neue', cursive;
-      padding-top: 41%;
-      text-align: center;
-      letter-spacing: 2px;
-  }
+}
+.slide-5 {
+    background-image: url("../images/slide3\ \(5\).png");
+}
+#text-over-slider {
+    font-family: 'Times New Romans', sans-serif;
+    font-size: large;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 
 /*Slider-container end*/
@@ -382,6 +376,7 @@ body {
 /*Google Maps*/
 
 #map iframe {
+    position: relative;
     width: 100%;
     height: 453px;
 }
@@ -389,6 +384,7 @@ body {
 /*footer*/
 
 .footer {
+    position: relative;
     background: #171717b9;
     width: 100%;
     height: 255px; 
@@ -399,7 +395,6 @@ body {
     color: whitesmoke;
     letter-spacing: 2px;
     font-family: 'Bebas Neue', cursive;
-    padding-top: 6%;
 }
 
 #right-about-footer {
@@ -798,517 +793,3 @@ margin-left: 20%;
 }
 
 /*Media queries*/
-
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-#menu {
-    font-size: x-small;
-    letter-spacing: 0;
-    text-align: center;
-}
-
-    #social-media {
-    float: right;
-    font-size: x-small;
-    padding-bottom: 1%;
-}
-#cover-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.slider-container {
-    height: 428px;
-}
-#right-about-logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#right-about-logo .fa-crown {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-/*about us page*/
-
-#about-us {
-    color: #f3f3f3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.text-aboutus pre {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-/*contact-us page*/
-
-#find h1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-/*gallery page*/
-#gallery-access {
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#hero-gallery {
-    height: 379px;
-}
-}
-
-/* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px){
-#logo {
-    width: 200px;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#logo {
-    width: 250px;
-    height: 10px;
-}
-
-#logo img {
-    margin-top: 9%;
-}
-#menu {
-    clear: both;
-    white-space: nowrap;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-}
-#social-media {
-    display: none;
-}
-
-#cover-text {
-    right: 57px;
-    width: 70%;
-    height: 15%;
-}
-#content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: x-small;
-}
-#content img {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.text-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 0;
-}
-
-#ferla .ferrari img { 
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-#ferla .lamborghini img { 
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-#mclarenn .mclaren img {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-#mabe .aston-martin img {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-#mabe .bentley img {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-#bula .land-rover img {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-#bula .bugatti img {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.cotext {
-    font-size: 1.25rem;
-}
-.paragraph {
-    font-size: 1rem;
-}
-.btn {
-    width: 45%;
-    padding-top: 11px;
-    font-size: small;
-}
-#popa .porsche img {
-    width: 24%;
-    margin-left: 37.3%;
-}
-#popa .pagani img {
-    width: 30%;
-    margin-left: 35.5%;
-}
-#rome .rolls-royce img {
-    width: 45%;
-    margin-left: 8.6%;
-}
-#rome .mercedes img {
-    width: 25%;
-}
-#tesla .tesla-pic img {
-    width: 20%;
-    margin-left: 40%;
-}
-#slider-text {
-    font-size: 20px;
-}
-#text-over-slider {
-    font-size: 15px;
-}
-#map {
-   margin-top: 42.5%; 
-}
-.footer {
-    padding-top: 0;
-    padding-bottom: 24%;
-}
-#right-about-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    float: none;
-}
-#right-about-footer h2 {
-    font-size: 18px;
-    font-size: 'Cuprum', sans-serif;
-}
-#right-about-footer p {
-    font-size: 14px;
-    font-size: 'Cuprum', sans-serif;
-}
-#left-about-footer h3 {
-    font-size: 15px;
-    padding-top: 0%;
-    padding-left: 1px;
-}
-.social-networks {
-    display: flex;
-    flex-direction: inherit;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    float: none;
-    padding: 0;
-}
-/*to do move button to the bottom of the page*/
-#paragraph-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    float: none;
-    position: absolute;
-    padding-top: 8%;
-    font-size: small;
-    padding-left: 13%;
-}
-#left-about-footer ol {
-    display: none;
-}
-#footer-button {
-    text-decoration: none;
-    color: whitesmoke;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5%;
-    color: greenyellow;
-}
-.footerbtn a:hover{
-    color: #04AA6D;
-}
-
-.fa-crown {
-    font-size: 0.1px;
-}
-footer #social-media {
-    display: inline;
-}
-/*about us page*/
-
-#hero-mclaren {
-    height: 20%;
-}
-#about-us {
-    font-size: 30px;
-}
-#cover-text-aboutus h1 {
-    font-size: 20px;
-    padding-top: 10%;
-}
-#cover-text-aboutus pre {
-    font-size: 15px;
-}
-#p4 {
-    padding-bottom: 10%;
-}
-#hero-contact {
-    height: 50%;
-}
-#contact-us {
-    font-size: 30px;
-}
-#introduction {
-    font-size: 20px;
-}
-.left-contact-heading h2 {
-    font-size: 20px;
-}
-.left-contact-heading p {
-    font-size: 15px;
-}
-#left-contact {
-    width: 77%;
-    margin-right: 50%;
-}
-#right-contact {
-    width: 77%;
-    font-size: 14px;
-}
-
-#right-contact p {
-    font-weight: bold;
-}
-#find h1 {
-    font-size: 20px;
-    margin-left: 31%;
-    display: revert;
-}
-#center-logo img {
-    max-width: 100%;
-    padding-top: 22%;
-}
-#find h2 {
-    font-size: 20px;
-    padding-top: 6%;
-}
-#find p {
-    font-size: 17px;
-}
-/*book a test drive*/
-#test-drive-now {
-    font-size: 25px;
-}
-.container {
-    width: 55%;
-    margin-top: 15%;
-    margin-bottom: 5%;
-}
-/*Gallery*/
-#gallery-access {
-    font-size: 20px;
-    text-align: center;
-}
-.header h1 {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-size: 20px;
-}
-}
-/* For small screens sizes from 700px wide and down */
-@media screen and (min-width: 700px){
-#menu {
-    font-size: small;
-}
-#cover-text {
-    height: 25%;
-}
-.slide {
-    padding: none;
-}
-.paragraph-slider {
-    padding-top: 10%;
-}
-#paragraph-footer {
-    padding-left: 6%;
-    padding-top: 9%;
-}
-}
-
-/* For small screens sizes from 1024px wide and down */
-@media screen and (min-width: 1024px){
-.social-networks i {
-    font-size: 109%;
-    margin-top: 1.7%;
-
-}
-#cover-text {
-    right: 307px;
-}
-.paragraph-slider {
-    padding-top: 68%;
-}
-#paragraph-footer {
-    padding-top: 6%;
-}
-#right-about-logo {
-    display: none;  
-}
-#cover-text-aboutus pre {
-    padding-left: 0;
-}
-}
-
-/* For small screens sizes from 1440px wide and down */
-@media screen and (min-width: 1440px){
-    #cover-text {
-    right: 489px;
-    }
-.paragraph-slider {
-    padding-top: 50.5%;
-}
-#paragraph-footer {
-    padding-top: 3%;
-}
-}
-/* For small screens sizes from 2560px wide and down */
-@media screen and (min-width: 2560px){
-#cover-text {
-    right: 40%;
-}
-.social-networks i {
-    margin-top: 0;
-}
-#paragraph-footer {
-    padding-top: 0.5%;
-    padding-right: 7%;
-}
-#hero-mclaren {
-    width: 100%;
-}
-#hero-contact {
-    width: 100%;
-}
-#test-drive-now {
-    margin-left: 21%;
-}
-}
-/* For small screens sizes from 800px wide and down */
-@media screen and (min-width: 800px){
-#cover-text {
-    right: 212px;
-}
-.paragraph-slider {
-    padding-top: 49%;
-}
-#left-about-footer {
-    margin-left: -89%;
-}
-#right-about-footer {
-    margin-right: -90%;
-}
-#paragraph-footer {
-    padding-top: 37%;
-}
-#right-about-logo .fa-crown {
-    display: none;
-}
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
-}
-.social-networks i {
-    font-size: 160%;
-    margin-top: -9.3%;
-    padding: 25px;
-    color: #000;
-}
-}
-/* For small screens sizes from 950px wide and down */
-@media screen and (min-width: 950px){
-.paragraph-slider {
-    padding-top: 40%;
-}
-.social-networks {
-    padding-top: 4%;
-}
-#cover-text-aboutus pre {
-    padding-left: 0;
-}
-}
