@@ -402,7 +402,10 @@ img {
     font-family: 'Bebas Neue', cursive;
     margin-right: 2%;
     color:whitesmoke;
-    text-decoration: none;
+    text-align: right;
+    font-weight: bold;
+    text-shadow: 1px 2px 7px black;
+    letter-spacing: 1px;
 }
 #right-about-footer h2 {
     padding-top: 30px;
@@ -413,13 +416,14 @@ img {
 }
 
 #paragraph-footer {
-    text-align: center;
-    padding-left: 5.6%;
     color: whitesmoke;
     font-family: 'Public Sans', sans-serif;
-}
-.fa-crown {
-    color:whitesmoke;
+    text-shadow: 1px 2px 7px black;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-36%, -50%);
 }
 
 #left-about-footer {
@@ -428,6 +432,7 @@ img {
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
     margin-left: 2%;
+    text-shadow: 1px 2px 7px black;
 }
 
 #left-about-footer ol {
@@ -449,10 +454,25 @@ img {
 .active {
     border-bottom:1px solid rgb(255, 255, 255);
 } 
-
-#footer-button {
-    display: none;
+.social-networks-footer {
+    text-align: center;
+    text-shadow: 0px 2px 8px black;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-43%, -50%);
 }
+
+.social-networks-footer li {
+    display: inline;
+}
+
+.social-networks-footer i {
+    font-size: 160%;
+    padding: 25px;
+    color: whitesmoke;
+}
+
 
 /* ABOUT US PAGE */
 
