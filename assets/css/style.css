@@ -813,3 +813,94 @@ margin-left: 20%;
 }
 
 /*Media queries*/
+
+/* Extra large devices (large laptops and desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+#logo img {
+    justify-content: flex-start;
+}
+#menu {
+    font-size: 65%;
+}
+.social-networks {
+    font-size: 9px;
+}
+#cover-text {
+    width: 341px;
+    height: 135px;
+}
+#welcome {
+    font-size: 120%;
+}
+.cotext {
+    font-size: 2rem;
+}
+.paragraph {
+    font-size: 1rem;
+}
+.btn {
+    font-size: 16px;
+}
+#slider-text {
+    font-size: 20px;
+}
+#text-over-slider {
+    font-size: 13px;
+}
+.footer {
+    height: 200px;
+}
+#right-about-footer {
+    font-size: 12px;
+}
+#left-about-footer {
+    font-size: 12px;
+}
+.social-networks-footer {
+    font-size: 10px;
+}
+#paragraph-footer {
+    font-size: 12px;
+}
+#cover-text-aboutus pre {
+    padding: 0;
+}
+/*About us*/
+
+#hero-mclaren {
+    margin-top: 2%;
+}
+#cover-mclaren {
+    font-size: xx-large;
+}
+/*Contact Us*/
+
+#hero-contact {
+    margin-top: 2%;
+}
+#cover-contact {
+    font-size: xx-large;
+}
+#find h1 {
+    margin-left: 41%;
+    font-size: 32px;
+}
+#find h2 {
+    font-size: 20px;
+}
+#find p {
+    font-size: 15px;
+}
+/*Book a test drive*/
+
+#hero-gallery {
+    margin-top: 2%;
+}
+#cover-gallery {
+    font-size: xx-large;
+}
+.header {
+    font-size: large;
+}
+}
+
