@@ -849,6 +849,21 @@ margin-left: 20%;
     color: #ffa500;
 }
 
+/*success page*/
+
+#success-cover {
+    background: url(../images/success.png) no-repeat center center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+}
+#text-success {
+    position: absolute;
+    text-align: center;
+}
+
 /*Media queries*/
 
 /* Extra large devices (large laptops and desktops, 992px and up) */
