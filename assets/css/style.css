@@ -479,34 +479,46 @@ img {
 /*hero image and cover text*/
 
 #hero-mclaren {
-    background: url(../images/hero-mclaren.png) no-repeat center center;
     height: 500px;
-    width: 95%;
+    width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 1%;
+    margin-top: 0;
+}
 
+#picture-mclaren {
+    height: 550px;
+    width: 100%;
+    background: url(../images/hero-mclaren.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+
+/*Animation when you load page*/
     animation: hero-zoom 3s;
     animation-fill-mode: forwards;
-}
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
+    
 }
 
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+    
+}
 #cover-mclaren {
     float: right;
     font-size: xxx-large;
     font-family: 'Bebas Neue', cursive;
-    color: #000000;
-    background-color: rgb(255, 255, 255);
-    margin-top: 20%;
-    margin-right: 35%;
-
+    color: #c9c9b9;
+    background-color: rgba(0, 0, 0, 0.089);
+    bottom: 57px;
+    position: absolute;
+    left: 60%;
+    text-shadow: 1px 2px 7px black;
 }
 
 /*content about-us*/
@@ -522,11 +534,11 @@ img {
     font-size: xx-large;
 }
 
-#cover-text-aboutus pre {
-    font-size: 20px;
+#cover-text-aboutus p {
+    font-size: 24px;
     font-family: 'Cuprum', sans-serif;
-    padding-right: 10%;
-    padding-left: 10%;
+    text-align: center;
+    margin: 0 250px 17px 250px;
 }
 
 #block-pre1 {
@@ -534,35 +546,48 @@ img {
 }
 
 /* Contact Us Page */
-#hero-contact {
-    background: url(../images/hero-contact.png) no-repeat center center;
-    height: 550px;
-    width: 95.3%;
+#hero-contact{
+    height: 500px;
+    width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 1%;
-    margin-bottom: 3%;
+    margin-top: 0;
+}
 
+#picture-contact {
+    height: 550px;
+    width: 100%;
+    background: url(../images/hero-contact.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+
+/*Animation when you load page*/
     animation: hero-zoom 3s;
     animation-fill-mode: forwards;
-}
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
+    
 }
 
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+    
+}
 #cover-contact {
     float: right;
     font-size: xxx-large;
     font-family: 'Bebas Neue', cursive;
-    color: #474747;
-    margin-top: 22%;
-    margin-right: 10%;
-
+    color: #95c9d9;
+    background-color: rgba(0, 0, 0, 0.089);
+    bottom: 57px;
+    position: absolute;
+    left: 64%;
+    background-color: rgba(0, 0, 0, 0.089);
+    text-shadow: 1px 2px 7px black;
 }
 
 .map-and-details iframe {
@@ -700,10 +725,11 @@ hr {
     float: left;
     font-size: xxx-large;
     font-family: 'Bebas Neue', cursive;
-    color: #000000;
-    background-color: #616161;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.089);
     margin-top: 5%;
     margin-left: 7%;
+    text-shadow: 1px 2px 7px black;
 
 }
 
@@ -721,22 +747,22 @@ input[type=text], [type=email], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #FFFFFF;
     color: #000000;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    background-color: #ffffff;
   }
   
   input[type=submit]:hover {
+    color: rgb(255, 255, 255);
     background-color: #000000;
-    color: #FFFFFF;
   }
   
   .container {
     border-radius: 10px;
-    background-color: #868686;
+    background-color: #4c4c4c;
     padding: 10px;
     margin-left: 20%;
     margin-right: 20%;
@@ -744,8 +770,8 @@ input[type=text], [type=email], select, textarea {
     margin-bottom: 2%;
 }
 .container label {
-    color:#000000;
-    background-color: whitesmoke;
+    color:#ffffff;
+    text-shadow: 1px 2px 7px black;
 }
 #booking {
     color: rgba(34, 34, 34, 0.699);
@@ -753,36 +779,47 @@ input[type=text], [type=email], select, textarea {
 
 /*Gallery pictures*/
 
-#hero-gallery {
-    background: url(../images/car-with-sky.png) no-repeat center center;
-    height: 450px;
-    width: 95.3%;
+#hero-gallery{
+    height: 500px;
+    width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 1%;
-    margin-bottom: 3%;
-
-    animation: gallery-zoom 3s;
-    animation-fill-mode: forwards;
+    margin-top: 0;
 }
 
-@keyframes gallery-zoom {
-    from {
+#gallery-background {
+    height: 550px;
+    width: 100%;
+    background: url(../images/hero-contact.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+
+/*Animation when you load page*/
+    animation: hero-zoom 3s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes hero-zoom {
+    from{
         transform: scale(1);
     }
-    to {
+    to{
         transform: scale(1.1);
     }
+    
 }
-
 #cover-gallery {
     float: right;
-    font-size: xxx-large;
+    font-size: xx-large;
     font-family: 'Bebas Neue', cursive;
-    color: rgba(0, 0, 0, 0.637);
-    margin-top: 15%;
-    margin-right: 10%;
-
+    color: #d7def3;
+    background-color: rgba(0, 0, 0, 0.089);
+    bottom: 57px;
+    position: absolute;
+    left: 54%;
+    text-shadow: 1px 2px 7px black;
 }
 
 /*gallery*/
@@ -815,7 +852,7 @@ margin-left: 20%;
 /*Media queries*/
 
 /* Extra large devices (large laptops and desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
 #logo img {
     justify-content: flex-start;
 }
@@ -873,6 +910,10 @@ margin-left: 20%;
 #cover-mclaren {
     font-size: xx-large;
 }
+
+#cover-text-aboutus p {
+    margin: 0 100px 17px 100px;
+}
 /*Contact Us*/
 
 #hero-contact {
@@ -904,3 +945,27 @@ margin-left: 20%;
 }
 }
 
+/* Medium devices (landscape tablets, 880px and up) */
+@media only screen and (max-width: 880px) {
+.social-networks i {
+    font-size: 150%;
+    padding: 10px;
+    color: #000;
+    margin-top: 18px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+.social-networks {
+    display: none;
+}
+#test-drive-now {
+    font-size: xx-large;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+}
