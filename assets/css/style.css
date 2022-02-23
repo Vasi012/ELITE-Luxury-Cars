@@ -1018,10 +1018,172 @@ text-shadow: 1px 2px 7px black;
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+#menu {
+    letter-spacing: 1px;
+}
+#logo img {
+    width: 228px;
+    height: 50px;
+}
+#logo, #menu {
+    line-height: 54px;
+}
+
+#ferla .ferrari img { 
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#ferla .lamborghini img { 
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#mclarenn .mclaren img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#mabe .aston-martin img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#mabe .bentley img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#bula .land-rover img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#bula .bugatti img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.cotext {
+    font-size: 1.25rem;
+}
+.paragraph {
+    font-size: 1rem;
+}
+.btn {
+    width: 23%;
+    padding-top: 11px;
+    font-size: small;
+}
+#popa .porsche img {
+    width: 24%;
+    margin-left: 37.3%;
+}
+#popa .pagani img {
+    width: 30%;
+    margin-left: 35.5%;
+}
+#rome .rolls-royce img {
+    width: 45%;
+    margin-left: 8.6%;
+}
+#rome .mercedes img {
+    width: 25%;
+}
+#tesla .tesla-pic img {
+    width: 20%;
+    margin-left: 40%;
+}
+#slider-text {
+    font-size: 20px;
+}
+#text-over-slider {
+    font-size: 15px;
+}
 #text-success {
     padding-top: 64px;
     padding-bottom: 16px;
     font-size: large;
-
 }
+
+/*footer*/
+
+.social-networks-footer i {
+    font-size: 131%;
+    padding: 15px;
+}
+/*contact us page*/
+
+#contact-us {
+    font-size: 30px;
+}
+#introduction {
+    font-size: 20px;
+}
+.left-contact-heading h2 {
+    font-size: 20px;
+}
+.left-contact-heading p {
+    font-size: 15px;
+}
+#left-contact {
+    width: 70%;
+}
+#right-contact {
+    width: 70%;
+    font-size: 15px;
+}
+
+#right-contact p {
+    font-weight: bold;
+}
+#find h1 {
+    font-size: 23px;
+    margin-left: 38%;
+}
+#center-logo img {
+    max-width: 75%;
+    padding-top: 14%;
+}
+#find h2 {
+    font-size: 20px;
+    padding-top: 6%;
+}
+#find p {
+    font-size: 17px;
+}
+/*book a test drive*/
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%; 
+    margin-bottom: 15%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 492px) {
+
 }
