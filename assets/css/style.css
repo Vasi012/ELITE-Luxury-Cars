@@ -396,6 +396,9 @@ img {
     letter-spacing: 2px;
     font-family: 'Bebas Neue', cursive;
 }
+.footer-home {
+    display: none;
+}
 
 #right-about-footer {
     float: right;
@@ -824,12 +827,18 @@ input[type=text], [type=email], select, textarea {
 
 /*gallery*/
 .header {
-margin-left: 20%;
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: 2%;
     font-family: 'Bebas Neue', cursive;
     font-size: x-large;
 }
 .column {
-    margin-left: 20%;
+    margin: 0;
+}
+
+.column img {
+    max-width: 100%;
 }
 
 /* 404 page */
@@ -1181,9 +1190,129 @@ text-shadow: 1px 2px 7px black;
     margin-top: 15%; 
     margin-bottom: 15%;
 }
+/*gallery page*/
+#cover-gallery {
+    font-size: large;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 492px) {
 
+#menu {
+
+    float: none;
+    display: block;
+    margin: 10px 55px -15px 55px;
+}
+#logo img {
+    float: none;
+    margin: 10px 140px 1px 140px;
+
+}
+#cover-text {
+    width: 269px;
+    height: 89px;
+}
+#left-about-footer {
+    font-size: 9px;
+}
+#right-about-footer {
+    font-size: 9px;
+}
+#paragraph-footer {
+    font-size: 9px;
+}
+.social-networks-footer {
+    font-size: 7px;
+}
+#map iframe {
+    height: 70%;
+}
+/*about us*/
+#cover-text-aboutus h1 {
+    font-size: x-large;
+}
+
+#cover-text-aboutus p {
+    margin: 10px 10px 19px 10px;
+    font-size: large;
+}
+/*contact us*/
+#find h1 {
+    font-size: 20px;
+    margin-left: 38%;
+}
+#find h2 {
+    font-size: 16px;
+}
+#find p {
+    font-size: 12px;
+}
+.map-and-details iframe {
+    height: 70%;
+}
+#center-logo img {
+    padding-top: 23%;
+}
+/*book a test drive*/
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*gallery page*/
+#cover-gallery {
+    font-size: medium;
+}
+.header {
+    font-size: small;
+    padding: 5% 0% 5% 0%;
+}
+.column {
+    margin: 0;
+}
+.column img {
+    max-width: 100%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 360px) {
+#menu {
+    margin: 1px 15px -15px 15px;
+}
+#content img {
+    margin-left: 23px;
+}
+.btn {
+    width: 45%;
+}
+#left-about-footer {
+    display: none;
+
+}
+#right-about-footer {
+    text-align: center;
+}
+
+.footer-home {
+    background-color: rgb(75 177 185);
+    color: #ffffff;
+    padding: 10px 10px;
+    font-size: 22px;
+    font-family: 'Bebas Neue';
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 30px 10px 0px 31px;
+} 
+.footer-home:hover {
+    background-color: #ffffff;
+    color: rgb(75 177 185);
+    border-radius: 100%;
+}
+.social-networks-footer i {
+    padding: 10px;
+}
 }
