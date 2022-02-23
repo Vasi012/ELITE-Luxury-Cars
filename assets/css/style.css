@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -45,7 +45,8 @@ body {
     margin-right: 30px;
 }
 
-#logo, #menu {
+#logo,
+#menu {
     line-height: 60px;
 }
 
@@ -56,7 +57,7 @@ body {
 
 #menu a:hover {
     border-bottom: 1px solid rgb(69, 39, 88);
-    color:rgb(119, 0, 255)
+    color: rgb(119, 0, 255)
 }
 
 .active {
@@ -83,6 +84,7 @@ body {
 .grow li {
     transition: all 1s ease-in-out;
 }
+
 li :hover {
     transform: scale(1.3);
 }
@@ -105,20 +107,21 @@ li :hover {
     position: relative;
     text-align: center;
 
-/*Animation when you load page*/
+    /*Animation when you load page*/
     animation: hero-zoom 3s;
     animation-fill-mode: forwards;
-    
+
 }
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
-    
+
 }
 
 /* Cover text header */
@@ -127,7 +130,7 @@ li :hover {
     color: #fffffff6;
     font-size: 150%;
     text-align: center;
-    font-family:  'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;
     letter-spacing: 5px;
 }
 
@@ -135,7 +138,7 @@ li :hover {
     padding: 0;
     padding-left: 9%;
     width: 100%;
-    
+
 }
 
 #cover-text {
@@ -168,15 +171,16 @@ li :hover {
     font-family: 'Bebas Neue', cursive;
     font-size: 26px;
 }
+
 hr {
     border-top: 1px solid #d6d6d6;
 }
 
 /* Car Logos*/
 
-#logo-hyperlink  img :hover{
+#logo-hyperlink img :hover {
     transform: scale(1.1);
-} 
+}
 
 #logo-hyperlink img {
     width: 20%;
@@ -251,7 +255,7 @@ hr {
     margin-left: 47.9%;
 }
 
-#mabe .aston-martin img{
+#mabe .aston-martin img {
     width: 11%;
     margin-left: 16%;
 }
@@ -260,16 +264,18 @@ hr {
     text-align: center;
     float: inherit;
 }
+
 .cotext {
     padding-bottom: 5px;
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
 }
 
-.paragraph{
+.paragraph {
     font-family: 'Bebas Neue', cursive;
     font-size: 1.2rem;
 }
+
 .btn {
     background-color: rgb(4, 110, 0);
     color: #ffffff;
@@ -279,7 +285,8 @@ hr {
     cursor: pointer;
     display: inline-block;
     border-radius: 8px;
-} 
+}
+
 .btn:hover {
     background-color: #ffffff;
     color: rgb(0, 110, 18);
@@ -292,14 +299,17 @@ hr {
     padding-top: 3%;
     font-family: 'Bebas Neue', cursive;
 }
+
 body {
     width: 100%;
     height: 90%;
     margin: 0 auto;
 }
+
 img {
     max-width: 80%;
 }
+
 .slider-container {
     height: 85%;
     width: 100%;
@@ -307,6 +317,7 @@ img {
     overflow: hidden;
     text-align: center;
 }
+
 .menu {
     position: absolute;
     left: 0;
@@ -314,6 +325,7 @@ img {
     width: 100%;
     bottom: 0;
 }
+
 .menu label {
     cursor: pointer;
     display: inline-block;
@@ -323,14 +335,17 @@ img {
     border-radius: 50px;
     margin: 0 0.2em 1em;
 }
+
 .menu label:hover,
 .menu label:focus {
     background: #1c87c9;
 }
+
 .slider-container {
     position: relative;
     padding-bottom: 50%;
 }
+
 .slide {
     width: 100%;
     height: 100%;
@@ -342,26 +357,33 @@ img {
     background-position: 50% 50%;
     transition: left 0s 0.75s;
 }
-  [id^="slide"]:checked + .slide {
+
+[id^="slide"]:checked+.slide {
     left: 0;
     z-index: 100;
     transition: left 0.65s ease-out;
 }
+
 .slide-1 {
     background-image: url("../images/slide3\ \(1\).png");
 }
+
 .slide-2 {
     background-image: url("../images/slide3\ \(2\).png");
 }
+
 .slide-3 {
     background-image: url("../images/slide3\ \(3\).png");
 }
+
 .slide-4 {
     background-image: url("../images/slide3\ \(4\).png");
 }
+
 .slide-5 {
     background-image: url("../images/slide3\ \(5\).png");
 }
+
 #text-over-slider {
     font-family: 'Times New Romans', sans-serif;
     font-size: large;
@@ -387,7 +409,7 @@ img {
     position: relative;
     background: #171717b9;
     width: 100%;
-    height: 255px; 
+    height: 255px;
 }
 
 #footer1 {
@@ -396,6 +418,7 @@ img {
     letter-spacing: 2px;
     font-family: 'Bebas Neue', cursive;
 }
+
 .footer-home {
     display: none;
 }
@@ -404,16 +427,18 @@ img {
     float: right;
     font-family: 'Bebas Neue', cursive;
     margin-right: 2%;
-    color:whitesmoke;
+    color: whitesmoke;
     text-align: right;
     font-weight: bold;
     text-shadow: 1px 2px 7px black;
     letter-spacing: 1px;
 }
+
 #right-about-footer h2 {
     padding-top: 30px;
 }
-#right-about-logo{
+
+#right-about-logo {
     text-align: center;
     padding-left: 5.1%;
 }
@@ -455,8 +480,9 @@ img {
 }
 
 .active {
-    border-bottom:1px solid rgb(255, 255, 255);
-} 
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
 .social-networks-footer {
     text-align: center;
     text-shadow: 0px 2px 8px black;
@@ -497,21 +523,23 @@ img {
     position: relative;
     text-align: center;
 
-/*Animation when you load page*/
+    /*Animation when you load page*/
     animation: hero-zoom 3s;
     animation-fill-mode: forwards;
-    
+
 }
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
-    
+
 }
+
 #cover-mclaren {
     float: right;
     font-size: xxx-large;
@@ -549,7 +577,7 @@ img {
 }
 
 /* Contact Us Page */
-#hero-contact{
+#hero-contact {
     height: 500px;
     width: 100%;
     overflow: hidden;
@@ -565,21 +593,23 @@ img {
     position: relative;
     text-align: center;
 
-/*Animation when you load page*/
+    /*Animation when you load page*/
     animation: hero-zoom 3s;
     animation-fill-mode: forwards;
-    
+
 }
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
-    
+
 }
+
 #cover-contact {
     float: right;
     font-size: xxx-large;
@@ -618,7 +648,7 @@ img {
     padding-bottom: 1%;
 }
 
-#contact-details{
+#contact-details {
     height: 600px;
     font-family: 'Bebas Neue', cursive;
     font-size: large;
@@ -626,7 +656,7 @@ img {
 
 }
 
-#left-contact{
+#left-contact {
     padding-top: 30px;
     width: 22%;
     float: left;
@@ -678,7 +708,7 @@ hr {
     background-position: center center;
     height: 100%;
     padding-top: 25%;
-    padding-left: 13%; 
+    padding-left: 13%;
     width: 100%;
 }
 
@@ -738,7 +768,10 @@ hr {
 
 /*forum book a test drive*/
 
-input[type=text], [type=email], select, textarea {
+input[type=text],
+[type=email],
+select,
+textarea {
     width: 100%;
     padding: 15px;
     border: 1px solid rgba(34, 34, 34, 0.699);
@@ -747,23 +780,23 @@ input[type=text], [type=email], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     color: #000000;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     background-color: #ffffff;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     color: rgb(255, 255, 255);
     background-color: #000000;
-  }
-  
-  .container {
+}
+
+.container {
     border-radius: 10px;
     background-color: #4c4c4c;
     padding: 10px;
@@ -772,17 +805,19 @@ input[type=text], [type=email], select, textarea {
     margin-top: 12%;
     margin-bottom: 2%;
 }
+
 .container label {
-    color:#ffffff;
+    color: #ffffff;
     text-shadow: 1px 2px 7px black;
 }
+
 #booking {
     color: rgba(34, 34, 34, 0.699);
 }
 
 /*Gallery pictures*/
 
-#hero-gallery{
+#hero-gallery {
     height: 500px;
     width: 100%;
     overflow: hidden;
@@ -798,21 +833,23 @@ input[type=text], [type=email], select, textarea {
     position: relative;
     text-align: center;
 
-/*Animation when you load page*/
+    /*Animation when you load page*/
     animation: hero-zoom 3s;
     animation-fill-mode: forwards;
-    
+
 }
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
-    
+
 }
+
 #cover-gallery {
     float: right;
     font-size: xx-large;
@@ -833,6 +870,7 @@ input[type=text], [type=email], select, textarea {
     font-family: 'Bebas Neue', cursive;
     font-size: x-large;
 }
+
 .column {
     margin: 0;
 }
@@ -853,7 +891,7 @@ input[type=text], [type=email], select, textarea {
     font-size: 2rem;
     color: #000;
 }
-    
+
 .return-to-home a:hover {
     color: #ffa500;
 }
@@ -861,30 +899,31 @@ input[type=text], [type=email], select, textarea {
 /*success page*/
 
 #success-cover {
-background: url(../images/success.png) no-repeat center center;
-height: 1300px;
-width: 100%;
-overflow: hidden;
-z-index: -1;
-padding: 0;
+    background: url(../images/success.png) no-repeat center center;
+    height: 1300px;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    padding: 0;
 }
 
 #text-success {
-text-align: center;
-font-size: xx-large;
-font-family: 'Bebas Neue', cursive;
-color: #ffffff;
-background-color: rgba(0, 0, 0, 0.568);
-border-radius: 20%;
-margin-top: 10%;
-margin-left: 7%;
-margin-right: 7%;
-text-shadow: 1px 2px 7px black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 20%;
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-shadow: 1px 2px 7px black;
 }
 
 #text-success h1 {
     color: #ff5e00;
 }
+
 .success-button-press {
     background-color: rgb(4, 110, 0);
     color: #ffffff;
@@ -894,7 +933,8 @@ text-shadow: 1px 2px 7px black;
     cursor: pointer;
     display: inline-block;
     border-radius: 8px;
-} 
+}
+
 .success-button-press:hover {
     background-color: #ff0000;
     color: rgb(255, 255, 255);
@@ -905,414 +945,497 @@ text-shadow: 1px 2px 7px black;
 
 /* Extra large devices (large laptops and desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-#logo img {
-    justify-content: flex-start;
-}
-#menu {
-    font-size: 65%;
-}
-.social-networks {
-    font-size: 9px;
-}
-#cover-text {
-    width: 341px;
-    height: 135px;
-}
-#welcome {
-    font-size: 120%;
-}
-.cotext {
-    font-size: 2rem;
-}
-.paragraph {
-    font-size: 1rem;
-}
-.btn {
-    font-size: 16px;
-}
-#slider-text {
-    font-size: 20px;
-}
-#text-over-slider {
-    font-size: 13px;
-}
-.footer {
-    height: 200px;
-}
-#right-about-footer {
-    font-size: 12px;
-}
-#left-about-footer {
-    font-size: 12px;
-}
-.social-networks-footer {
-    font-size: 10px;
-}
-#paragraph-footer {
-    font-size: 12px;
-}
-#cover-text-aboutus pre {
-    padding: 0;
-}
-/*About us*/
+    #logo img {
+        justify-content: flex-start;
+    }
 
-#hero-mclaren {
-    margin-top: 2%;
-}
-#cover-mclaren {
-    font-size: xx-large;
-}
+    #menu {
+        font-size: 65%;
+    }
 
-#cover-text-aboutus p {
-    margin: 0 100px 17px 100px;
-}
-/*Contact Us*/
+    .social-networks {
+        font-size: 9px;
+    }
 
-#hero-contact {
-    margin-top: 2%;
-}
-#cover-contact {
-    font-size: xx-large;
-}
-#find h1 {
-    margin-left: 41%;
-    font-size: 32px;
-}
-#find h2 {
-    font-size: 20px;
-}
-#find p {
-    font-size: 15px;
-}
-/*Book a test drive*/
+    #cover-text {
+        width: 341px;
+        height: 135px;
+    }
 
-#hero-gallery {
-    margin-top: 2%;
-}
-#cover-gallery {
-    font-size: xx-large;
-}
-.header {
-    font-size: large;
-}
-/*success page*/
-#text-success {
-    font-size: x-large;
-}
+    #welcome {
+        font-size: 120%;
+    }
+
+    .cotext {
+        font-size: 2rem;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    #slider-text {
+        font-size: 20px;
+    }
+
+    #text-over-slider {
+        font-size: 13px;
+    }
+
+    .footer {
+        height: 200px;
+    }
+
+    #right-about-footer {
+        font-size: 12px;
+    }
+
+    #left-about-footer {
+        font-size: 12px;
+    }
+
+    .social-networks-footer {
+        font-size: 10px;
+    }
+
+    #paragraph-footer {
+        font-size: 12px;
+    }
+
+    #cover-text-aboutus pre {
+        padding: 0;
+    }
+
+    /*About us*/
+
+    #hero-mclaren {
+        margin-top: 2%;
+    }
+
+    #cover-mclaren {
+        font-size: xx-large;
+    }
+
+    #cover-text-aboutus p {
+        margin: 0 100px 17px 100px;
+    }
+
+    /*Contact Us*/
+
+    #hero-contact {
+        margin-top: 2%;
+    }
+
+    #cover-contact {
+        font-size: xx-large;
+    }
+
+    #find h1 {
+        margin-left: 41%;
+        font-size: 32px;
+    }
+
+    #find h2 {
+        font-size: 20px;
+    }
+
+    #find p {
+        font-size: 15px;
+    }
+
+    /*Book a test drive*/
+
+    #hero-gallery {
+        margin-top: 2%;
+    }
+
+    #cover-gallery {
+        font-size: xx-large;
+    }
+
+    .header {
+        font-size: large;
+    }
+
+    /*success page*/
+    #text-success {
+        font-size: x-large;
+    }
 }
 
 /* Medium devices (landscape tablets, 880px and up) */
 @media only screen and (max-width: 880px) {
-.social-networks i {
-    font-size: 150%;
-    padding: 10px;
-    color: #000;
-    margin-top: 18px;
-}
+    .social-networks i {
+        font-size: 150%;
+        padding: 10px;
+        color: #000;
+        margin-top: 18px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-.social-networks {
-    display: none;
-}
-#test-drive-now {
-    font-size: xx-large;
-}
-#text-success {
-    padding-top: 18px;
-    padding-bottom: 18px;
-}
+    .social-networks {
+        display: none;
+    }
+
+    #test-drive-now {
+        font-size: xx-large;
+    }
+
+    #text-success {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-#menu {
-    letter-spacing: 1px;
-}
-#logo img {
-    width: 228px;
-    height: 50px;
-}
-#logo, #menu {
-    line-height: 54px;
-}
+    #menu {
+        letter-spacing: 1px;
+    }
 
-#ferla .ferrari img { 
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
+    #logo img {
+        width: 228px;
+        height: 50px;
+    }
 
-#ferla .lamborghini img { 
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-#mclarenn .mclaren img {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-#mabe .aston-martin img {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-#mabe .bentley img {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-#bula .land-rover img {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-#bula .bugatti img {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.cotext {
-    font-size: 1.25rem;
-}
-.paragraph {
-    font-size: 1rem;
-}
-.btn {
-    width: 23%;
-    padding-top: 11px;
-    font-size: small;
-}
-#popa .porsche img {
-    width: 24%;
-    margin-left: 37.3%;
-}
-#popa .pagani img {
-    width: 30%;
-    margin-left: 35.5%;
-}
-#rome .rolls-royce img {
-    width: 45%;
-    margin-left: 8.6%;
-}
-#rome .mercedes img {
-    width: 25%;
-}
-#tesla .tesla-pic img {
-    width: 20%;
-    margin-left: 40%;
-}
-#slider-text {
-    font-size: 20px;
-}
-#text-over-slider {
-    font-size: 15px;
-}
-#text-success {
-    padding-top: 64px;
-    padding-bottom: 16px;
-    font-size: large;
-}
+    #logo,
+    #menu {
+        line-height: 54px;
+    }
 
-/*footer*/
+    #ferla .ferrari img {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
 
-.social-networks-footer i {
-    font-size: 131%;
-    padding: 15px;
-}
-/*contact us page*/
+    #ferla .lamborghini img {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
 
-#contact-us {
-    font-size: 30px;
-}
-#introduction {
-    font-size: 20px;
-}
-.left-contact-heading h2 {
-    font-size: 20px;
-}
-.left-contact-heading p {
-    font-size: 15px;
-}
-#left-contact {
-    width: 70%;
-}
-#right-contact {
-    width: 70%;
-    font-size: 15px;
-}
+    #mclarenn .mclaren img {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
 
-#right-contact p {
-    font-weight: bold;
-}
-#find h1 {
-    font-size: 23px;
-    margin-left: 38%;
-}
-#center-logo img {
-    max-width: 75%;
-    padding-top: 14%;
-}
-#find h2 {
-    font-size: 20px;
-    padding-top: 6%;
-}
-#find p {
-    font-size: 17px;
-}
-/*book a test drive*/
-.container {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 15%; 
-    margin-bottom: 15%;
-}
-/*gallery page*/
-#cover-gallery {
-    font-size: large;
-}
+    #mabe .aston-martin img {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    #mabe .bentley img {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    #bula .land-rover img {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    #bula .bugatti img {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .cotext {
+        font-size: 1.25rem;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+    }
+
+    .btn {
+        width: 23%;
+        padding-top: 11px;
+        font-size: small;
+    }
+
+    #popa .porsche img {
+        width: 24%;
+        margin-left: 37.3%;
+    }
+
+    #popa .pagani img {
+        width: 30%;
+        margin-left: 35.5%;
+    }
+
+    #rome .rolls-royce img {
+        width: 45%;
+        margin-left: 8.6%;
+    }
+
+    #rome .mercedes img {
+        width: 25%;
+    }
+
+    #tesla .tesla-pic img {
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    #slider-text {
+        font-size: 20px;
+    }
+
+    #text-over-slider {
+        font-size: 15px;
+    }
+
+    #text-success {
+        padding-top: 64px;
+        padding-bottom: 16px;
+        font-size: large;
+    }
+
+    /*footer*/
+
+    .social-networks-footer i {
+        font-size: 131%;
+        padding: 15px;
+    }
+
+    /*contact us page*/
+
+    #contact-us {
+        font-size: 30px;
+    }
+
+    #introduction {
+        font-size: 20px;
+    }
+
+    .left-contact-heading h2 {
+        font-size: 20px;
+    }
+
+    .left-contact-heading p {
+        font-size: 15px;
+    }
+
+    #left-contact {
+        width: 70%;
+    }
+
+    #right-contact {
+        width: 70%;
+        font-size: 15px;
+    }
+
+    #right-contact p {
+        font-weight: bold;
+    }
+
+    #find h1 {
+        font-size: 23px;
+        margin-left: 38%;
+    }
+
+    #center-logo img {
+        max-width: 75%;
+        padding-top: 14%;
+    }
+
+    #find h2 {
+        font-size: 20px;
+        padding-top: 6%;
+    }
+
+    #find p {
+        font-size: 17px;
+    }
+
+    /*book a test drive*/
+    .container {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    /*gallery page*/
+    #cover-gallery {
+        font-size: large;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 492px) {
 
-#menu {
+    #menu {
 
-    float: none;
-    display: block;
-    margin: 10px 55px -15px 55px;
-}
-#logo img {
-    float: none;
-    margin: 10px 140px 1px 140px;
+        float: none;
+        display: block;
+        margin: 10px 55px -15px 55px;
+    }
 
-}
-#cover-text {
-    width: 269px;
-    height: 89px;
-}
-#left-about-footer {
-    font-size: 9px;
-}
-#right-about-footer {
-    font-size: 9px;
-}
-#paragraph-footer {
-    font-size: 9px;
-}
-.social-networks-footer {
-    font-size: 7px;
-}
-#map iframe {
-    height: 70%;
-}
-/*about us*/
-#cover-text-aboutus h1 {
-    font-size: x-large;
-}
+    #logo img {
+        float: none;
+        margin: 10px 140px 1px 140px;
 
-#cover-text-aboutus p {
-    margin: 10px 10px 19px 10px;
-    font-size: large;
-}
-/*contact us*/
-#find h1 {
-    font-size: 20px;
-    margin-left: 38%;
-}
-#find h2 {
-    font-size: 16px;
-}
-#find p {
-    font-size: 12px;
-}
-.map-and-details iframe {
-    height: 70%;
-}
-#center-logo img {
-    padding-top: 23%;
-}
-/*book a test drive*/
+    }
 
-.container {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-/*gallery page*/
-#cover-gallery {
-    font-size: medium;
-}
-.header {
-    font-size: small;
-    padding: 5% 0% 5% 0%;
-}
-.column {
-    margin: 0;
-}
-.column img {
-    max-width: 100%;
-}
+    #cover-text {
+        width: 269px;
+        height: 89px;
+    }
+
+    #left-about-footer {
+        font-size: 9px;
+    }
+
+    #right-about-footer {
+        font-size: 9px;
+    }
+
+    #paragraph-footer {
+        font-size: 9px;
+    }
+
+    .social-networks-footer {
+        font-size: 7px;
+    }
+
+    #map iframe {
+        height: 70%;
+    }
+
+    /*about us*/
+    #cover-text-aboutus h1 {
+        font-size: x-large;
+    }
+
+    #cover-text-aboutus p {
+        margin: 10px 10px 19px 10px;
+        font-size: large;
+    }
+
+    /*contact us*/
+    #find h1 {
+        font-size: 20px;
+        margin-left: 38%;
+    }
+
+    #find h2 {
+        font-size: 16px;
+    }
+
+    #find p {
+        font-size: 12px;
+    }
+
+    .map-and-details iframe {
+        height: 70%;
+    }
+
+    #center-logo img {
+        padding-top: 23%;
+    }
+
+    /*book a test drive*/
+
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /*gallery page*/
+    #cover-gallery {
+        font-size: medium;
+    }
+
+    .header {
+        font-size: small;
+        padding: 5% 0% 5% 0%;
+    }
+
+    .column {
+        margin: 0;
+    }
+
+    .column img {
+        max-width: 100%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 360px) {
-#menu {
-    margin: 1px 15px -15px 15px;
-}
-#content img {
-    margin-left: 23px;
-}
-.btn {
-    width: 45%;
-}
-#left-about-footer {
-    display: none;
+    #menu {
+        margin: 1px 15px -15px 15px;
+    }
 
-}
-#right-about-footer {
-    text-align: center;
-}
+    #content img {
+        margin-left: 23px;
+    }
 
-.footer-home {
-    background-color: rgb(75 177 185);
-    color: #ffffff;
-    padding: 10px 10px;
-    font-size: 22px;
-    font-family: 'Bebas Neue';
-    cursor: pointer;
-    display: inline-block;
-    border-radius: 100%;
-    margin: 30px 10px 0px 31px;
-} 
-.footer-home:hover {
-    background-color: #ffffff;
-    color: rgb(75 177 185);
-    border-radius: 100%;
-}
-.social-networks-footer i {
-    padding: 10px;
-}
+    .btn {
+        width: 45%;
+    }
+
+    #left-about-footer {
+        display: none;
+
+    }
+
+    #right-about-footer {
+        text-align: center;
+    }
+
+    .footer-home {
+        background-color: rgb(75 177 185);
+        color: #ffffff;
+        padding: 10px 10px;
+        font-size: 22px;
+        font-family: 'Bebas Neue';
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 100%;
+        margin: 30px 10px 0px 31px;
+    }
+
+    .footer-home:hover {
+        background-color: #ffffff;
+        color: rgb(75 177 185);
+        border-radius: 100%;
+    }
+
+    .social-networks-footer i {
+        padding: 10px;
+    }
 }

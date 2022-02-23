@@ -9,7 +9,7 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
     <title>ELITE | Luxury Cars</title>
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
@@ -19,6 +19,7 @@
 </head>
 
 <!--Logo and Header-->
+
 <body>
     <header>
         <div>
@@ -26,6 +27,7 @@
                 <img src="./assets/images/luxury-cars.png" alt="ELITE | Luxury Cars" height="60" width="225">
             </a>
         </div>
+        <!--navigation links quick access to principal pages-->
         <nav>
             <ul id="menu">
                 <li>
@@ -39,109 +41,132 @@
                 </li>
             </ul>
         </nav>
+        <!--social media header-->
         <div>
-        <nav id="social-media">
-            <ul class="social-networks">
-                <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook open in a new page"><i class="fab fa-facebook bounce"></i></a></li>
-                <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter open in a new page"><i class="fa fa-twitter bounce"></i></a></li>
-                <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Youtube open in a new page"><i class="fab fa-youtube bounce"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="instagram open in a new page"><i class="fab fa-instagram bounce"></i></a></li>
-            </ul>
-        </nav>
+            <nav id="social-media">
+                <ul class="social-networks">
+                    <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                            aria-label="Facebook open in a new page"><i class="fab fa-facebook bounce"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                            aria-label="Twitter open in a new page"><i class="fa fa-twitter bounce"></i></a></li>
+                    <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
+                            aria-label="Youtube open in a new page"><i class="fab fa-youtube bounce"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                            aria-label="instagram open in a new page"><i class="fab fa-instagram bounce"></i></a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-<!--book a test drive -->
+    <!--book a test drive -->
 
-<section id="hero-test-drive">
-    <div id="picture-test-drive"></div>
-    <div id="cover-test-drive">
-        <h1 id="test-drive-now">Book a test drive!</h1>
-    </div>
-
-
-<div class="container">
-  <form action="success.html" target="_blank">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="Your email.." required>
-
-    <label for="booking">When would you like to visit us?</label>
-    <select id="booking" name="booking" required>
-    <option value="" disabled selected hidden>Choose a day..</option>
-      <option value="Monday">Monday</option>
-      <option value="Tuesday">Tuesday</option>
-      <option value="Wednesday">Wednesday</option>
-      <option value="Thursday">Thursday</option>
-      <option value="Friday">Friday</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
-</section>
-
-<!--footer-->
-<footer class="footer">
-    <div>
-        <a class="footer-button" href="index.html"><button class="footer-home">Home!</button></a>
-        <div id="right-about-footer">
-            <h2>
-                Opening Hours:
-            </h2>
-            <p>
-                Monday to Thursday: 10:00 - 17:00
-            </p>
-            <p>
-                Friday: 10:30 - 16:30
-            </p>
-            <p>
-                Saturday: Closed
-            </p>
-            <p>
-                Sunday: Closed
-            </p>
+    <section id="hero-test-drive">
+        <div id="picture-test-drive"></div>
+        <div id="cover-test-drive">
+            <h1 id="test-drive-now">Book a test drive!</h1>
         </div>
-        <div id="left-about-footer">
-        <ol>
-        <li>
-            <a class=".active" href="index.html"><h3>Home<i class="fas fa-home"></i></h3></a>
-        </li>
-        <li>
-            <a class=".active" href="aboutus.html"><h3>About Us<i class="fab fa-angellist"></i></h3></a>
-        </li>
-        <li>
-            <a class=".active" href="contactus.html"><h3>Contact Us<i class="fas fa-phone"></i></h3></a>
-        </li>
-        <li class="botdt">
-            <a class=".active" href="bookatest.html"><h3>Book a test drive today!<i class="fas fa-book"></i></h3></a>
-        </li>
-        </ol>
+        <!--form book a test drive-->
+        <div class="container">
+            <form action="success.html" target="_blank">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+                <label for="booking">When would you like to visit us?</label>
+                <select id="booking" name="booking" required>
+                    <option value="" disabled selected hidden>Choose a day..</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <!--opening hours-->
+        <div>
+            <a class="footer-button" href="index.html"><button class="footer-home">Home!</button></a>
+            <div id="right-about-footer">
+                <h2>
+                    Opening Hours:
+                </h2>
+                <p>
+                    Monday to Thursday: 10:00 - 17:00
+                </p>
+                <p>
+                    Friday: 10:30 - 16:30
+                </p>
+                <p>
+                    Saturday: Closed
+                </p>
+                <p>
+                    Sunday: Closed
+                </p>
+            </div>
+            <!--navigation buttons-->
+            <div id="left-about-footer">
+                <ol>
+                    <li>
+                        <a class=".active" href="index.html">
+                            <h3>Home<i class="fas fa-home"></i></h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a class=".active" href="aboutus.html">
+                            <h3>About Us<i class="fab fa-angellist"></i></h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a class=".active" href="contactus.html">
+                            <h3>Contact Us<i class="fas fa-phone"></i></h3>
+                        </a>
+                    </li>
+                    <li class="botdt">
+                        <a class=".active" href="bookatest.html">
+                            <h3>Book a test drive today!<i class="fas fa-book"></i></h3>
+                        </a>
+                    </li>
+                </ol>
+            </div>
+            <!--social media in the footer-->
+            <div id="footer1">
+                <nav id="social-media-footer">
+                    <ul class="social-networks-footer">
+                        <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                                aria-label="Facebook open in a new page"><i class="fab fa-facebook bounce"></i></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                                aria-label="Twitter open in a new page"><i class="fa fa-twitter bounce"></i></a></li>
+                        <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
+                                aria-label="Youtube open in a new page"><i class="fab fa-youtube bounce"></i></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                                aria-label="instagram open in a new page"><i class="fab fa-instagram bounce"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--copyright-->
+        <p id="paragraph-footer">© ELITE | Luxury Cars 2022</p>
         </div>
 
-        <div id="footer1">
-        <nav id="social-media-footer">
-            <ul class="social-networks-footer">
-                <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook open in a new page"><i class="fab fa-facebook bounce"></i></a></li>
-                <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter open in a new page"><i class="fa fa-twitter bounce"></i></a></li>
-                <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Youtube open in a new page"><i class="fab fa-youtube bounce"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="instagram open in a new page"><i class="fab fa-instagram bounce"></i></a></li>
-            </ul>
-        </nav>
-    </div>
-    </div><p id="paragraph-footer">© ELITE | Luxury Cars 2022</p></div>
 
+    </footer>
 
-</footer>
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+</body>
 
- <!-- Font awesome script -->
- <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
- </body>
 </html>
