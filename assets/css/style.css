@@ -852,16 +852,36 @@ margin-left: 20%;
 /*success page*/
 
 #success-cover {
-    background: url(../images/success.png) no-repeat center center;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    z-index: -1;
-    position: relative;
+background: url(../images/success.png) no-repeat center center;
+height: 1300px;
+width: 100%;
+overflow: hidden;
+z-index: -1;
+padding: 0;
 }
+
 #text-success {
-    position: absolute;
-    text-align: center;
+text-align: center;
+font-size: xx-large;
+font-family: 'Bebas Neue', cursive;
+color: #ffffff;
+background-color: rgba(0, 0, 0, 0.568);
+border-radius: 30%;
+margin-top: 10%;
+margin-left: 7%;
+margin-right: 7%;
+text-shadow: 1px 2px 7px black;
+}
+
+#text-success h1 {
+    color: #ff5e00;
+}
+.success-button {
+    color: red;
+}
+
+.success-button-press {
+    color: red;
 }
 
 /*Media queries*/
