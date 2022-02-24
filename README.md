@@ -546,7 +546,7 @@ The site was deployed to GitHub pages. The steps to depoly are as follows:
      -Click 'Save'.
      -A live link will be dispalyed in a green banner when published successfully.
      
-The live link can be found here - **ADD LINK**
+The live link can be found [here](https://vasi012.github.io/ELITE-Luxury-Cars/) ( https://vasi012.github.io/ELITE-Luxury-Cars/ )
 
 
 ## Credits
