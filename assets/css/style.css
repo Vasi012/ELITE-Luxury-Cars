@@ -102,7 +102,7 @@ li :hover {
 #top-cars {
     height: 750px;
     width: 100%;
-    background: url(../images/top-cars.png) no-repeat center center;
+    background: url(../images/top-cars.webp) no-repeat center center;
     background-size: cover;
     position: relative;
     text-align: center;
@@ -365,23 +365,23 @@ img {
 }
 
 .slide-1 {
-    background-image: url("../images/slide3\ \(1\).png");
+    background-image: url("../images/slide1.webp");
 }
 
 .slide-2 {
-    background-image: url("../images/slide3\ \(2\).png");
+    background-image: url("../images/slide2.webp");
 }
 
 .slide-3 {
-    background-image: url("../images/slide3\ \(3\).png");
+    background-image: url("../images/slide3.webp");
 }
 
 .slide-4 {
-    background-image: url("../images/slide3\ \(4\).png");
+    background-image: url("../images/slide4.webp");
 }
 
 .slide-5 {
-    background-image: url("../images/slide3\ \(5\).png");
+    background-image: url("../images/slide5.webp");
 }
 
 #text-over-slider {
@@ -518,7 +518,7 @@ img {
 #picture-mclaren {
     height: 550px;
     width: 100%;
-    background: url(../images/hero-mclaren.png) no-repeat center center;
+    background: url(../images/hero-mclaren.webp) no-repeat center center;
     background-size: cover;
     position: relative;
     text-align: center;
@@ -588,7 +588,7 @@ img {
 #picture-contact {
     height: 550px;
     width: 100%;
-    background: url(../images/hero-contact.png) no-repeat center center;
+    background: url(../images/hero-contact.webp) no-repeat center center;
     background-size: cover;
     position: relative;
     text-align: center;
@@ -747,7 +747,7 @@ hr {
 /*book a test drive*/
 
 #hero-test-drive {
-    background: url(../images/bookadrivetest.png) no-repeat center center;
+    background: url(../images/bookadrivetest.webp) no-repeat center center;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -828,7 +828,7 @@ input[type=submit]:hover {
 #gallery-background {
     height: 550px;
     width: 100%;
-    background: url(../images/hero-contact.png) no-repeat center center;
+    background: url(../images/hero-contact.webp) no-repeat center center;
     background-size: cover;
     position: relative;
     text-align: center;
@@ -899,7 +899,7 @@ input[type=submit]:hover {
 /*success page*/
 
 #success-cover {
-    background: url(../images/success.png) no-repeat center center;
+    background: url(../images/success.webp) no-repeat center center;
     height: 1300px;
     width: 100%;
     overflow: hidden;
