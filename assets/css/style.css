@@ -285,6 +285,7 @@ hr {
     cursor: pointer;
     display: inline-block;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 .btn:hover {
