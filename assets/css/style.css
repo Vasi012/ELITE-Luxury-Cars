@@ -830,7 +830,7 @@ input[type=submit]:hover {
 #gallery-background {
     height: 550px;
     width: 100%;
-    background: url(../images/hero-contact.webp) no-repeat center center;
+    background: url(../images/car-with-sky.webp) no-repeat center center;
     background-size: cover;
     position: relative;
     text-align: center;
