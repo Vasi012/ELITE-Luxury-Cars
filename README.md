@@ -477,11 +477,17 @@ Steps to test:
 3. Click on this.
 4. Book a Test Drive page is loaded.
 5. Fill up the form:
+
  -First Name: Vasilica
+ 
  -Last Name: Pavaloi
+ 
  -Email: v.catalin@test.com
+ 
  -When would you like to visit us: Monday
+ 
  -Message: This is a test.
+ 
 6. Click Submit
 7. User Should be redirected to **ADD PAGE** confirmation page.
  
@@ -499,11 +505,17 @@ Scenario Two - Missing Required Field First Name
 3. Click on this.
 4. Book a Test Drive page is loaded.
 5. Fill up the form:
+
  -First Name:
+ 
  -Last Name: Pavaloi
+ 
  -Email: v.catalin@test.com
+ 
  -When would you like to visit us: Monday
+ 
  -Message: This is a test.
+ 
 6. Click Submit
  
 Expected: 
@@ -518,11 +530,17 @@ Scenario Three - Missing Required Field Last Name
 3. Click on this.
 4. Book a Test Drive page is loaded.
 5. Fill up the form:
+
  -First Name: Vasilica
+ 
  -Last Name:
+ 
  -Email: v.catalin@test.com
+ 
  -When would you like to visit us: Monday
+ 
  -Message: This is a test.
+ 
 6. Click Submit
  
 Expected: 
@@ -537,11 +555,17 @@ Scenario Four - Missing Required Field Email
 3. Click on this.
 4. Book a Test Drive page is loaded.
 5. Fill up the form:
+
  -First Name: Vasilica
+ 
  -Last Name: Pavaloi
+ 
  -Email:
+ 
  -When would you like to visit us: Monday
+ 
  -Message: This is a test.
+ 
 6. Click Submit
  
 Expected: 
@@ -556,11 +580,17 @@ Scenario Five - Missing Required Field When would you like to visit us
 3. Click on this.
 4. Book a Test Drive page is loaded.
 5. Fill up the form:
+
  -First Name: Vasilica
+ 
  -Last Name: Pavaloi
+ 
  -Email: v.catalin@test.com
+ 
  -When would you like to visit us:
+ 
  -Message: This is a test.
+ 
 6. Click Submit
  
 Expected: 
@@ -575,11 +605,17 @@ Scenario Six - Incorrect Email Format
 3. Click on this.
 4. Book a Test Drive page is loaded.
 5. Fill up the form:
+
 -First Name: Vasilica
+
 -Last Name: Pavaloi
+
 -Email: v.catalintest.com
+
 -When would you like to visit us: Monday
+
 -Message: This is a test.
+
 6. Click Submit
  
 Expected: 
