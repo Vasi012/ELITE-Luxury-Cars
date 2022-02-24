@@ -283,6 +283,63 @@ Testing was focused to ensure the following criteria were met:
 
 Manual test were also performed to ensure the website was accessible. 
 
+**index.html** 
+
+*The home page was tested using WAVE*
+
+*We can observe that there are not any erors and the contrast ratio are meet with success*
+
+![home](https://user-images.githubusercontent.com/96884287/155609739-2b4a8149-6b8b-4f14-9c9e-b4ce2e847f67.png)
+
+**aboutus.html**
+
+*The About Us page was tested using WAVE*
+
+*We can observe that there are not any erors and the contrast ratio are meet with success*
+
+![about us](https://user-images.githubusercontent.com/96884287/155609960-abc88eeb-0770-4c3e-a55c-852f4b511456.png)
+
+**contactus.html**
+
+*The Contact Us page was tested using WAVE*
+
+*We can observe that there are not any erors and the contrast ratio are meet with success*
+
+![contact us](https://user-images.githubusercontent.com/96884287/155610038-0874324a-aca1-432f-b0df-db02764e144d.png)
+
+**bookatestdrive.html**
+
+*The Book a Test Drive page was tested using WAVE*
+
+*We can observe that there are not any erors and the contrast ratio are meet with success*
+
+![Book a test drive](https://user-images.githubusercontent.com/96884287/155610098-a4affa45-ac2d-4ec4-bd61-72ad9ece98e2.png)
+
+**gallery.html**
+
+*The Gallery page was tested using WAVE*
+
+*We can observe that there are not any erors and the contrast ratio are meet with success*
+
+![gallery wave](https://user-images.githubusercontent.com/96884287/155610371-8ab70d42-13ca-4970-a92d-300e31dbb200.png)
+
+**success.html**
+
+*The Success page was tested using WAVE*
+
+*We can observe that there are not any erors and the contrast ratio are meet with success*
+
+![success wave](https://user-images.githubusercontent.com/96884287/155610666-8de0fa3e-b284-4371-a604-5ff60c1e95ce.png)
+
+**404.html**
+
+*The 404 page was tested using WAVE*
+
+*We can observe that there are not any erors and the contrast ratio are meet with success*
+
+![404 wave](https://user-images.githubusercontent.com/96884287/155610802-b5855f8e-1324-435b-b9db-f57909ddb995.png)
+
+
 **Lighthouse Testing**
 
 We have conducted checks using Lighthouse Testing, the first raport being 86% can be caused by the speed of internet / old devices. 
