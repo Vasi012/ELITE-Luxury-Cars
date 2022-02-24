@@ -885,28 +885,24 @@ input[type=submit]:hover {
 
 #image-constraction {
     background: url(../images/404.png) no-repeat center center;
-    height: 100%;
+    padding-bottom: 50%;    
+    height: 550px;
     width: 100%;
-    overflow: hidden;
-    z-index: -1;
-    padding-bottom: 50%;
+    background-size: cover;
+    position: relative;
+    text-align: center;
 }
 
 #cover-constraction {
-    text-align: center;
-    font-size: 130%;
-    font-family: 'Public Sans', sans-serif;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.103);
-    letter-spacing: 4px;
-    width: 400px;
-    height: 180px;
-    padding-bottom: 250px;
-    bottom: 230px;
+    float: right;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+    color: #d7def3;
+    background-color: rgba(0, 0, 0, 0.089);
+    bottom: 57px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 54%;
+    text-shadow: 1px 2px 7px black;
 }
 
 .back-home {
