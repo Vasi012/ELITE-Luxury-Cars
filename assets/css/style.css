@@ -895,13 +895,13 @@ input[type=submit]:hover {
 
 #cover-constraction {
     float: right;
-    font-size: xx-large;
+    font-size: xxx-large;
     font-family: 'Bebas Neue', cursive;
     color: #d7def3;
     background-color: rgba(0, 0, 0, 0.089);
-    bottom: 57px;
+    top: 34%;
     position: absolute;
-    left: 54%;
+    left: 36%;
     text-shadow: 1px 2px 7px black;
 }
 
@@ -1093,6 +1093,13 @@ input[type=submit]:hover {
     #text-success {
         font-size: x-large;
     }
+
+    /*404*/
+    #cover-constraction {
+        font-size: xx-large;
+        left: 28%;
+        top: 30%;
+    }
 }
 
 /* Medium devices (landscape tablets, 880px and up) */
@@ -1103,6 +1110,10 @@ input[type=submit]:hover {
         color: #000;
         margin-top: 18px;
     }
+    /*404*/
+    #cover-constraction {
+        left: 25%;
+        }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -1119,6 +1130,11 @@ input[type=submit]:hover {
         padding-top: 18px;
         padding-bottom: 18px;
     }
+    /*404*/
+    #cover-constraction {
+        font-size: x-large;
+        left: 21%;
+        }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -1321,9 +1337,14 @@ input[type=submit]:hover {
     #cover-gallery {
         font-size: large;
     }
+    /*404*/
+    #cover-constraction {
+        font-size: large;
+        left: 29%;
+        }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 492px and up) */
 @media only screen and (max-width: 492px) {
 
     #menu {
@@ -1420,9 +1441,13 @@ input[type=submit]:hover {
     .column img {
         max-width: 100%;
     }
+    /*404*/
+    #cover-constraction {
+        left: 25%;
+        }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 360px and up) */
 @media only screen and (max-width: 360px) {
     #menu {
         margin: 1px 15px -15px 15px;
@@ -1467,4 +1492,9 @@ input[type=submit]:hover {
     .social-networks-footer i {
         padding: 10px;
     }
+    /*404*/
+    #cover-constraction {
+        font-size: medium;
+        left: 19%;
+        }
 }
