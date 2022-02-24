@@ -899,16 +899,19 @@ input[type=submit]:hover {
     letter-spacing: 4px;
     width: 400px;
     height: 180px;
-    padding-bottom: 20px;
+    padding-bottom: 250px;
     bottom: 230px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.103);
 }
 
 .back-home {
-    background-color: rgb(4, 110, 0);
+    background-color: rgb(206, 20, 20);
     color: #ffffff;
     padding: 14px 28px;
     font-size: 22px;
@@ -920,8 +923,8 @@ input[type=submit]:hover {
 }
 
 .back-home :hover {
-    background-color: #ff0000;
-    color: rgb(255, 255, 255);
+    background-color: rgb(197, 197, 197);
+    color: rgb(206, 20, 20);
     border-radius: 8px;
 }
 
