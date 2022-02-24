@@ -21,9 +21,9 @@ If you would like to choose your next car and meet our team you can click [here]
  
  1.Contains links to the Home, About Us and Contact Us pages and will be responsive on all devices, also, there is the logo who can be accessed to go to the Home Page accessible from each page, moreover there are some quick access buttons to our social media plats. 
  
- 2.These shortcuts will allow costumer to easily use the website and gain access to the part of the website that they are interested in by using any size device.
+2.These shortcuts will allow costumer to easily use the website and gain access to the part of the website that they are interested in by using any size device.
  
-      ![Screenshot 2022-02-20 164450](https://user-images.githubusercontent.com/96884287/154853971-1c3d7229-9edb-4af7-84d1-477a43293ad0.png)
+![Screenshot 2022-02-20 164450](https://user-images.githubusercontent.com/96884287/154853971-1c3d7229-9edb-4af7-84d1-477a43293ad0.png)
 
 3. In the first page we can access the gallery of the website by clicking on one of the logos *Ferrari* and this will direct us the Gallery Page where a customer can have a look at some of the available stock.
 
