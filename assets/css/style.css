@@ -893,9 +893,11 @@ input[type=submit]:hover {
 }
 
 #cover-constraction {
+    text-align: center;
     font-size: 130%;
     font-family: 'Public Sans', sans-serif;
-    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.103);
     letter-spacing: 4px;
     width: 400px;
     height: 180px;
@@ -905,9 +907,6 @@ input[type=submit]:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.103);
 }
 
 .back-home {
