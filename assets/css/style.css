@@ -421,6 +421,7 @@ img {
 
 .footer-home {
     display: none;
+    text-decoration: none;
 }
 
 #right-about-footer {
@@ -933,6 +934,7 @@ input[type=submit]:hover {
     cursor: pointer;
     display: inline-block;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 .success-button-press:hover {
@@ -1427,6 +1429,7 @@ input[type=submit]:hover {
         display: inline-block;
         border-radius: 100%;
         margin: 30px 10px 0px 31px;
+        text-decoration: none;
     }
 
     .footer-home:hover {
