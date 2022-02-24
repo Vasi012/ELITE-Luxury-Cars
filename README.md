@@ -2,13 +2,13 @@
 *ELITE* the website created to help people finding the right car for them.
 
 
-On the website you have the posibility to find your dream car where you can personalise the way you want it.
+On the website you have the possibility to find your dream car where you can personalise the way you want it.
 
-Morover we have a variety of posible choices just for you.
+Moreover, we have a variety of possible choices just for you.
 
-*ELITE | Luxury Cars* was created in order to have a strong relationship between the custumer and sales person. 
+*ELITE | Luxury Cars* was created to have a strong relationship between the customer and salesperson. 
 
-If you will like to choose your next car and meet our team you can click [here](https://vasi012.github.io/ELITE-Luxury-Cars/).
+If you would like to choose your next car and meet our team you can click [here](https://vasi012.github.io/ELITE-Luxury-Cars/).
 
 ![Screenshot 2022-02-24 203636](https://user-images.githubusercontent.com/96884287/155603562-8b21659d-c7e2-4897-905f-b14fd51887c4.png)
 
@@ -21,7 +21,7 @@ If you will like to choose your next car and meet our team you can click [here](
  
  1.Contains links to the Home, About Us and Contact Us pages and will be responsive on all devices, also, there is the logo who can be accessed to go to the Home Page accessible from each page, moreover there are some quick access buttons to our social media plats. 
  
- 2.This shortcuts will allow costumer to easily use the website and gain access to the part of the website taht they are interested in by using any size device.
+ 2.These shortcuts will allow costumer to easily use the website and gain access to the part of the website that they are interested in by using any size device.
  
       ![Screenshot 2022-02-20 164450](https://user-images.githubusercontent.com/96884287/154853971-1c3d7229-9edb-4af7-84d1-477a43293ad0.png)
 
@@ -37,7 +37,7 @@ If you will like to choose your next car and meet our team you can click [here](
 
 
 
-4. In the centre of logos will be found a button for qucik access to the *Book a test drive* page. 
+4. In the centre of logos will be found a button for quick access to the *Book a test drive* page. 
 
 5. Where the customer is required to fill up a form where is asked for some basic details.
 
@@ -52,7 +52,7 @@ Once the customer will click this button he will be directed to the *Book a test
 
 **Footer**
 
-- This will contain in the left-hand side, a qucik access to the pages, as the one in the navigation bar including:
+- This will contain in the left-hand side, a quick access to the pages, as the one in the navigation bar including:
 
 *Home, About Us, Contact Us and Book a test drive* page. 
 
@@ -65,7 +65,7 @@ In the right-hand side we will find the working program of this showroom.
 
 **Favicon**
 
-A site wide favicon will be impemented with the ***ELITE | Luxury Cars***
+A site wide favicon will be implemented with the ***ELITE | Luxury Cars***
 
 -The role of this is to provide a easy access to the customers with multiple Website's open in the same time.
 
@@ -82,7 +82,7 @@ The 404 page will allow the user to easily navigate back to the main website if 
 
 **Landing Page**
 
-1. The landing page will contain some of the favorite cars at *ELITE | Luxury Cars*. 
+1. The landing page will contain some of the favourite cars at *ELITE | Luxury Cars*. 
 
 Each landing image from each page has a zoom effect which will be activated anytime when you land on the page for 5s.
 
@@ -93,14 +93,14 @@ Each landing image from each page has a zoom effect which will be activated anyt
 
 1. In the About Us button located on the navigation bar or footer bar, will direct the customer to the page.
 
-2. On this page the customer will find necesarry information about the website and an overview of the CEO.
+2. On this page the customer will find necessary information about the website and an overview of the CEO.
 
 ![Screenshot 2022-02-24 204709](https://user-images.githubusercontent.com/96884287/155605030-2e71ff2d-83d0-4d1a-9037-84dd8ec3bb26.png)
 
 
 **Contact Us**
 
-1.  The *Contact Us* page is offering to the customer an easy access to the phone number of the company, or an email contact if the customer would like to send a request or a feedback. 
+1.  The *Contact Us* page is offering to the customer an easy access to the phone number of the company, or an email contact if the customer would like to send a request or feedback. 
 
 2.  The contact page has the program of the showroom for each day of the week.
 
@@ -127,7 +127,7 @@ Each landing image from each page has a zoom effect which will be activated anyt
    
    -Message (required, type= text area).
    
-4. On a successful submission of the book a test drive form, the user will be navigated to the success.html dispaying a success message.
+4. On a successful submission of the book a test drive form, the user will be navigated to the success.html displaying a success message.
 
 5. By submitting this form, will allow the showroom access over your information send such as who you are and your email address the day when you would like to book a test drive also if the customer has any mentions for the showroom such as requesting to be collected from a point or having a special request.
 
@@ -136,9 +136,9 @@ Each landing image from each page has a zoom effect which will be activated anyt
 
 **Gallery Page**
 
-The gallery page will provide he user with pictures of *ELITE | Luxury Cars* stock available. 
+The gallery page will provide the user with pictures of *ELITE | Luxury Cars* stock available. 
 
-These pictures include pictures taken from different angles in order to surprise the right side of the car. 
+These pictures include pictures taken from different angles to surprise the right side of the car. 
 
 The gallery will be fully responsive on all the devices.
 
@@ -262,19 +262,19 @@ Mobile version (to be implemented)
 
 **Responsiveness**
 
-All pages were tested  to ensure responsivness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
 
 **Step to test:**
 
-1. Open browser and naavigate to *ELITE | Luxury Cars*
+1. Open browser and navigate to *ELITE | Luxury Cars*
 
 2. Open the developer tools (right click and inspect / F12)
 
-3. Set to responsive and deacrease widht to 320px.
+3. Set to responsive and decrease width to 320px.
  
 4. Set the zoom to 50%.
  
-5. Click and drag the responsive window to maximum widht.
+5. Click and drag the responsive window to maximum width.
 
 **Expected:**
 
@@ -282,47 +282,47 @@ Website is responsive on all screen sizes and no images are pixelated or stretch
 
 No horizontal scroll is present. No elements overlap.
 
-All the code it's verified using W3 Verificator for CSS and HTML, there are not errors found.
+All the code it's verified using W3 Verificatory for CSS and HTML, there are not errors found.
 
-We have run a test in W3C Validator for CSS (https://jigsaw.w3.org/css-validator/) to ensure that there ar not errors that might afect the code.
+We have run a test in W3C Validator for CSS (https://jigsaw.w3.org/css-validator/) to ensure that there are not errors that might affect the code.
 
 ![css validator](https://user-images.githubusercontent.com/96884287/155605751-53443746-51ed-41c5-b23c-3b581429e52d.png)
 
-We have conducted responsivnes tests to each HTML page via W3C Validator (https://validator.w3.org/) to ensure the responsivnes of the cod and to prevent any errors.
+We have conducted responsiveness tests to each HTML page via W3C Validator (https://validator.w3.org/) to ensure the responsiveness of the cod and to prevent any errors.
 
-index.html (We haven't find any errors, we did find a warning but this worning dosen't afftect the website)
+index.html (We haven't found any errors; we did find a warning, but this warning doesn’t affect the website)
 
 ![home html](https://user-images.githubusercontent.com/96884287/155606193-0280f318-681a-40f2-b1b0-3a7a32662a8e.png)
 
-aboutus.html (we haven't find any errors)
+aboutus.html (we haven't found any errors)
 
 ![about us html](https://user-images.githubusercontent.com/96884287/155606316-eae72540-fc19-4d6f-995f-a0ddfbcb3e52.png)
 
 
-contactus.html (We haven't find any errors, we did find a warning but this worning dosen't afftect the website)
+contactus.html (We haven't found any errors; we did find a warning, but this warning doesn’t affect the website)
 
 ![contact us html](https://user-images.githubusercontent.com/96884287/155606503-94af599c-24b5-46ec-88dd-6ed246912a6c.png)
 
-bookatestdrive.html (we haven't find any errors)
+bookatestdrive.html (we haven't found any errors)
 
 ![book a test html](https://user-images.githubusercontent.com/96884287/155606587-b49a352a-b789-4bf7-bc24-565fa6ab0cb6.png)
 
-gallery.html (We haven't find any errors, we did find a warning but this worning dosen't afftect the website)
+gallery.html (We haven't found any errors; we did find a warning, but this warning doesn’t affect the website)
 
 ![gallery html](https://user-images.githubusercontent.com/96884287/155606684-0689eb65-a107-4767-99ba-05b0449dc0bd.png)
 
-success.html (we haven't find any errors)
+success.html (we haven't found any errors)
 
 ![success html](https://user-images.githubusercontent.com/96884287/155606788-e6616176-c3d4-4852-96f2-07e6d61ffb6d.png)
 
-404.html (we haven't find any errors)
+404.html (we haven't found any errors)
 
 ![404 html](https://user-images.githubusercontent.com/96884287/155606928-b5d50dd5-c7a9-40a3-8da2-e530004be63d.png)
 
 
 **Actual:**
 
-Website was also opened on the followind devices and no responsive issues were seen:
+Website was also opened on the following devices and no responsive issues were seen:
 
         -iPhone 13 Pro Max - Phone
         
@@ -336,41 +336,41 @@ Website was also opened on the followind devices and no responsive issues were s
         
         -MacBook Pro - Laptop
         
-        -Assus - Laptop
+        -ASUS - Laptop
         
-        -Dell 24/32 inch - Dekstop
+        -Dell 24/32 inch - Desktop
         
         -Samsung 50/100 inch - TV (HDMI Mode)
         
 ## Accessibility
 
-Wave Accessibility tool was used throughout development and for final testing of the deployed website to check for any aid accessiblity testing. 
+Wave Accessibility tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing. 
 
 Testing was focused to ensure the following criteria were met:
 
 1. All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs.
 
-2. Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines.
+2. Colour contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines.
 
 3. Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user.
  
 4. All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions.
  
-5. All not textual content had alternative text or titles so rescriptions are read out to screen readers.
+5. All not textual content had alternative text or titles, so prescriptions are read out to screen readers.
  
-6. HTML page lang atribute has been set.
+6. HTML page lang attribute has been set.
  
-7. Aria properties have been impemented correctly.
+7. Aria properties have been implemented correctly.
 
 8. WCAG 2.1 Coding best practices being followed.
 
-Manual test were also performed to ensure the website was accessible. 
+Manual tests were also performed to ensure the website was accessible. 
 
 **index.html** 
 
 *The home page was tested using WAVE*
 
-*We can observe that there are not any erors and the contrast ratio are meet with success*
+*We can observe that there are not any errors, and the contrast ratio are meet with success*
 
 ![home](https://user-images.githubusercontent.com/96884287/155609739-2b4a8149-6b8b-4f14-9c9e-b4ce2e847f67.png)
 
@@ -378,7 +378,7 @@ Manual test were also performed to ensure the website was accessible.
 
 *The About Us page was tested using WAVE*
 
-*We can observe that there are not any erors and the contrast ratio are meet with success*
+*We can observe that there are not any errors, and the contrast ratio are meet with success*
 
 ![about us](https://user-images.githubusercontent.com/96884287/155609960-abc88eeb-0770-4c3e-a55c-852f4b511456.png)
 
@@ -386,7 +386,7 @@ Manual test were also performed to ensure the website was accessible.
 
 *The Contact Us page was tested using WAVE*
 
-*We can observe that there are not any erors and the contrast ratio are meet with success*
+*We can observe that there are not any errors, and the contrast ratio are meet with success*
 
 ![contact us](https://user-images.githubusercontent.com/96884287/155610038-0874324a-aca1-432f-b0df-db02764e144d.png)
 
@@ -394,7 +394,7 @@ Manual test were also performed to ensure the website was accessible.
 
 *The Book a Test Drive page was tested using WAVE*
 
-*We can observe that there are not any erors and the contrast ratio are meet with success*
+*We can observe that there are not any errors, and the contrast ratio are meet with success*
 
 ![Book a test drive](https://user-images.githubusercontent.com/96884287/155610098-a4affa45-ac2d-4ec4-bd61-72ad9ece98e2.png)
 
@@ -402,7 +402,7 @@ Manual test were also performed to ensure the website was accessible.
 
 *The Gallery page was tested using WAVE*
 
-*We can observe that there are not any erors and the contrast ratio are meet with success*
+*We can observe that there are not any errors, and the contrast ratio are meet with success*
 
 ![gallery wave](https://user-images.githubusercontent.com/96884287/155610371-8ab70d42-13ca-4970-a92d-300e31dbb200.png)
 
@@ -410,7 +410,7 @@ Manual test were also performed to ensure the website was accessible.
 
 *The Success page was tested using WAVE*
 
-*We can observe that there are not any erors and the contrast ratio are meet with success*
+*We can observe that there are not any errors, and the contrast ratio are meet with success*
 
 ![success wave](https://user-images.githubusercontent.com/96884287/155610666-8de0fa3e-b284-4371-a604-5ff60c1e95ce.png)
 
@@ -418,16 +418,16 @@ Manual test were also performed to ensure the website was accessible.
 
 *The 404 page was tested using WAVE*
 
-*We can observe that there are not any erors and the contrast ratio are meet with success*
+*We can observe that there are not any errors, and the contrast ratio are meet with success*
 
 ![404 wave](https://user-images.githubusercontent.com/96884287/155610802-b5855f8e-1324-435b-b9db-f57909ddb995.png)
 
 
 **Lighthouse Testing**
 
-We have conducted checks using Lighthouse Testing, the first raport being 86% can be caused by the speed of internet / old devices. 
+We have conducted checks using Lighthouse Testing, the first rapport being 86% can be caused by the speed of internet / old devices. 
 
-Using the website we won't find any issue and we can confirm that the website it's responsive on every device.
+Using the website, we won't find any issue and we can confirm that the website it's responsive on every device.
 
 ![image](https://user-images.githubusercontent.com/96884287/155607019-629dcfaf-5872-4f39-9dc0-ce5d6eeb5b22.png)
 
@@ -458,13 +458,13 @@ contactus.html
 
 Links on all pages navigated to the correct pages as expected. 
 
-Also we can include the gallery page hidden underneath each logo from the first page.
+Also, we can include the gallery page hidden underneath each logo from the first page.
 
-Moreover each button directs you to the right page including the logos which are also clickable for an easy access to the home page.
+Moreover, each button directs you to the right page including the logos which are also clickable for an easy access to the home page.
 
 ## Form Testing
 
-The form located on *Book a Test Drive* page was tested to ensure it function and as expected when the correct data was input and when incorect data was input.
+The form located on *Book a Test Drive* page was tested to ensure it function and as expected when the correct data was input and when incorrect data was input.
 
 The following test scenarios were covered:
 
@@ -491,7 +491,7 @@ Form submits with no warnings or errors and user is redirected to success.html c
 
 ![Screenshot 2022-02-24 210943](https://user-images.githubusercontent.com/96884287/155608174-e598d706-01e2-4a97-81ab-1fc6a22088e4.png)
 
- Website behave as expected with no errors or warnings and redirected to success.html.
+ Websites behave as expected with no errors or warnings and redirected to success.html.
  
 Scenario Two - Missing Required Field First Name
 1. Navigate to ELITE | Luxury Cars Page
@@ -508,7 +508,7 @@ Scenario Two - Missing Required Field First Name
  
 Expected: 
 
-The form does not submit and an error is displayed to tell the user that the field is required.
+The form does not submit, and an error is displayed to tell the user that the field is required.
 
 Website behave as expected, error message was displayed and the form did not submit.
 
@@ -527,7 +527,7 @@ Scenario Three - Missing Required Field Last Name
  
 Expected: 
 
-The form does not submit and an error is displayed to tell the user that the field is required.
+The form does not submit, and an error is displayed to tell the user that the field is required.
 
 Website behave as expected, error message was displayed and the form did not submit.
 
@@ -546,7 +546,7 @@ Scenario Four - Missing Required Field Email
  
 Expected: 
 
-The form does not submit and an error is displayed to tell the user that the field is required.
+The form does not submit, and an error is displayed to tell the user that the field is required.
 
 Website behave as expected, error message was displayed and the form did not submit.
 
@@ -565,11 +565,11 @@ Scenario Five - Missing Required Field When would you like to visit us
  
 Expected: 
 
-The form does not submit and an error is displayed to tell the user that the field is required.
+The form does not submit, and an error is displayed to tell the user that the field is required.
 
 Website behave as expected, error message was displayed and the form did not submit.
 
-Scenario Six - Incorect Email Format
+Scenario Six - Incorrect Email Format
 1. Navigate to ELITE | Luxury Cars Page
 2. Scroll down to *Book a Test Drive Button*
 3. Click on this.
@@ -584,7 +584,7 @@ Scenario Six - Incorect Email Format
  
 Expected: 
 
-The form dose not submit and an error is displayed to tell the user that a valid email is required and the format it should be in.
+The form dose not submit, and an error is displayed to tell the user that a valid email is required and the format it should be in.
 
 Website behave as expected, error message was displayed and the form did not submit.
  
@@ -606,13 +606,13 @@ Each item opened a new tab when clicked as expected and correct hover effect was
 
 ## Unfixed Bugs
 
-On a dekstop page in index.html when clicking on the next button in the slider the website push you up with 10%. 
+On a desktop page in index.html when clicking on the next button in the slider the website push you up with 10%. 
 
 ## Deployment 
 
 **Version Control
 
--The site was created using the GitPod code editor and pushed to github to the repository 'Elite-Luxury-Cars'.
+-The site was created using the GitPod code editor and pushed to GitHub to the repository 'Elite-Luxury-Cars'.
 
 -The following git commands were used throughout development to push code to the remote repo:
 
@@ -628,12 +628,12 @@ On a dekstop page in index.html when clicking on the next button in the slider t
     
     This command was used to push all committed code to the remote repository on GitHub.
     
--Moreover by using the command ( python3 -m  http.server ) we had a quick access to the website to see every movment that was requested in code.
+-Moreover by using the command ( python3 -m  http.server ) we had a quick access to the website to see every movement that was requested in code.
     
     
-## Deployment to Github Pages
+## Deployment to GitHub Pages
 
-The site was deployed to GitHub pages. The steps to depoly are as follows:
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
      -In the GitHub repository, navigate to the Settings Tab.
      
@@ -643,7 +643,7 @@ The site was deployed to GitHub pages. The steps to depoly are as follows:
      
      -Click 'Save'.
      
-     -A live link will be dispalyed in a green banner when published successfully.
+     -A live link will be displayed in a green banner when published successfully.
      
 The live link can be found [here](https://vasi012.github.io/ELITE-Luxury-Cars/) ( https://vasi012.github.io/ELITE-Luxury-Cars/ )
 
