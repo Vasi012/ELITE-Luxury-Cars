@@ -1,14 +1,11 @@
 # ELITE | Luxury Cars
-*ELITE* the website created to help people finding the right car for them.
+*ELITE* the website created to help people find the right car for them.
 
+ELITE | Luxury Cars is the website where the customers find their dream car which can be personalised in any desired way. At the same time, on the website can be found a variety of choices which are very easy to access.
 
-On the website you have the possibility to find your dream car where you can personalise the way you want it.
+*ELITE | Luxury Cars* was created to have a strong relationship between the customer and sales team. 
 
-Moreover, we have a variety of possible choices just for you.
-
-*ELITE | Luxury Cars* was created to have a strong relationship between the customer and salesperson. 
-
-If you would like to choose your next car and meet our team you can click [here](https://vasi012.github.io/ELITE-Luxury-Cars/).
+If you would like to choose your next car and meet our profesional team click [here](https://vasi012.github.io/ELITE-Luxury-Cars/).
 
 ![Screenshot 2022-02-24 203636](https://user-images.githubusercontent.com/96884287/155603562-8b21659d-c7e2-4897-905f-b14fd51887c4.png)
 
@@ -21,7 +18,7 @@ If you would like to choose your next car and meet our team you can click [here]
  
  1.Contains links to the Home, About Us and Contact Us pages and will be responsive on all devices, also, there is the logo who can be accessed to go to the Home Page accessible from each page, moreover there are some quick access buttons to our social media plats. 
  
-2.These shortcuts will allow costumer to easily use the website and gain access to the part of the website that they are interested in by using any size device.
+2.These shortcuts will allow costumers to easily use the website and gain access to the part of the website they are interested in by using any size device.
  
 ![Screenshot 2022-02-20 164450](https://user-images.githubusercontent.com/96884287/154853971-1c3d7229-9edb-4af7-84d1-477a43293ad0.png)
 
@@ -39,7 +36,7 @@ If you would like to choose your next car and meet our team you can click [here]
 
 4. In the centre of logos will be found a button for quick access to the *Book a test drive* page. 
 
-5. Where the customer is required to fill up a form where is asked for some basic details.
+5. Where the customer is required to fill up a form, whith some basic details about them.
 
 ![Screenshot 2022-02-20 171327](https://user-images.githubusercontent.com/96884287/154855093-168396c7-2e99-4cc2-bc8a-4e0eb2ffd8e7.png)
 
@@ -56,9 +53,9 @@ Once the customer will click this button he will be directed to the *Book a test
 
 *Home, About Us, Contact Us and Book a test drive* page. 
 
-In the centre of the footer, we find links to the social media platforms such as, Facebook, Instagram, Twitter, YouTube, and LinkedIn. 
+In the centre of the footer, we find links to the social media platforms such as, Facebook, Instagram, Twitter and YouTube. 
 
-In the right-hand side we will find the working program of this showroom. 
+In the right-hand side will be found the working program of this showroom. 
 
 ![Screenshot 2022-02-24 204149](https://user-images.githubusercontent.com/96884287/155604201-c3d279fb-231e-457f-bee8-35192d833c2a.png)
 
@@ -67,15 +64,15 @@ In the right-hand side we will find the working program of this showroom.
 
 A site wide favicon will be implemented with the ***ELITE | Luxury Cars***
 
--The role of this is to provide a easy access to the customers with multiple Website's open in the same time.
+-The role of this is to provide an easy access to the customers with multiple browsers opened in the same time.
 
 ![Screenshot 2022-02-20 172320](https://user-images.githubusercontent.com/96884287/154855532-39607565-a0b5-4d75-b5c9-f1caaaae9e25.png)
 
 **404 Page**
 
-A 404 page will be implemented and will display if a user navigates to a broken link.
+A 404 page will be implemented and will display when a user navigates to a broken link.
 
-The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need of the Browser back button.
+The 404 page will allow the user to easily navigate back to the main website. If they are directed to a broken link / missing page, without the needing to use the browser back button.
 
 ![Screenshot 2022-02-24 204310](https://user-images.githubusercontent.com/96884287/155604440-253ede98-6f99-42c5-834e-34b2948e8324.png)
 
@@ -91,7 +88,7 @@ Each landing image from each page has a zoom effect which will be activated anyt
 
 **About Us**
 
-1. In the About Us button located on the navigation bar or footer bar, will direct the customer to the page.
+1. The About Us button located on the navigation bar or footer bar, will direct the customer to the page.
 
 2. On this page the customer will find necessary information about the website and an overview of the CEO.
 
@@ -102,11 +99,11 @@ Each landing image from each page has a zoom effect which will be activated anyt
 
 1.  The *Contact Us* page is offering to the customer an easy access to the phone number of the company, or an email contact if the customer would like to send a request or feedback. 
 
-2.  The contact page has the program of the showroom for each day of the week.
+2.  The contact page contains information in regards with opening times of the showroom for each day of the week.
 
 3.  Below this general information the customer will find some modalities to visit the showroom by using public transport (Underground / Bus / Airplane) or private transport, also if the customer specify that he require collection and return this can be arranged.
 
-4.  We have a easy access to the exact location by using google maps with a pic on the place where the showroom is located.
+4.  We have an easy access to the exact location by using google maps with a pinned location on the place where the showroom is placed.
 
 ![Screenshot 2022-02-24 204820](https://user-images.githubusercontent.com/96884287/155605163-8e40f7e2-e130-4125-869c-202371b73c3b.png)
 
@@ -117,19 +114,21 @@ Each landing image from each page has a zoom effect which will be activated anyt
 
 2. This format will allow each costumer to book a test drive.
 
-3. The form will consist of the following fields and attributes:
+3. The form neeeds to be fielled up as following:
 
    -First Name (required, type=text)
    
    -Last Name (required, type=text)
    
+   -Email (required, type=email)
+   
    -Choose a day (required, type=text)
    
    -Message (required, type= text area).
    
-4. On a successful submission of the book a test drive form, the user will be navigated to the success.html displaying a success message.
+4. Once the form has been submited, the user will be navigated to the success.html displaying a validation message.
 
-5. By submitting this form, will allow the showroom access over your information send such as who you are and your email address the day when you would like to book a test drive also if the customer has any mentions for the showroom such as requesting to be collected from a point or having a special request.
+5. After submitting the form, the showroom will process the information send such as your name, email and the date chossen to have the test drive. At the same time the showroom will process information given by the customer such as having to be colected from his location or any other special requests.
 
 ![Screenshot 2022-02-24 204907](https://user-images.githubusercontent.com/96884287/155605267-a066826c-28e3-432f-a925-e7a95fb0b239.png)
 
@@ -138,11 +137,11 @@ Each landing image from each page has a zoom effect which will be activated anyt
 
 The gallery page will provide the user with pictures of *ELITE | Luxury Cars* stock available. 
 
-These pictures include pictures taken from different angles to surprise the right side of the car. 
+The pictures found in the gallery page have been professionaly taken and proccessed by our marketing team in order for the customers to visualise the bigger picture of their dream car. 
 
-The gallery will be fully responsive on all the devices.
+The gallery can bee accessed from any size devices, beeing fully responsive to them.
 
-***Existing Features***
+**Existing Features**
 
 1. Responsive Design
  
@@ -238,7 +237,7 @@ Mobile version (to be implemented)
 
 **Romans International** 
 
--Romans International was used as a main point of inspiration on picture stick and until reaching the final point of the website.
+-Romans International was used as a main point of inspiration on picture stock and until reaching the final point of the website.
 
 **Balsamiq**
 
@@ -464,7 +463,7 @@ Moreover, each button directs you to the right page including the logos which ar
 
 ## Form Testing
 
-The form located on *Book a Test Drive* page was tested to ensure it function and as expected when the correct data was input and when incorrect data was input.
+The form located on *Book a Test Drive* page was tested to ensure its function and as expected when the correct data was input and when incorrect data was input.
 
 The following test scenarios were covered:
 
@@ -489,7 +488,7 @@ Steps to test:
  -Message: This is a test.
  
 6. Click Submit
-7. User Should be redirected to **ADD PAGE** confirmation page.
+7. User Should be redirected to success.html confirmation page.
  
 Expected:
  
@@ -497,7 +496,7 @@ Form submits with no warnings or errors and user is redirected to success.html c
 
 ![Screenshot 2022-02-24 210943](https://user-images.githubusercontent.com/96884287/155608174-e598d706-01e2-4a97-81ab-1fc6a22088e4.png)
 
- Websites behave as expected with no errors or warnings and redirected to success.html.
+ Website behaves as expected with no errors or warnings and redirected to success.html.
  
 Scenario Two - Missing Required Field First Name
 1. Navigate to ELITE | Luxury Cars Page
@@ -522,7 +521,7 @@ Expected:
 
 The form does not submit, and an error is displayed to tell the user that the field is required.
 
-Website behave as expected, error message was displayed and the form did not submit.
+Website behaves as expected, error message was displayed and the form did not submit.
 
 Scenario Three - Missing Required Field Last Name
 1. Navigate to ELITE | Luxury Cars Page
@@ -547,7 +546,7 @@ Expected:
 
 The form does not submit, and an error is displayed to tell the user that the field is required.
 
-Website behave as expected, error message was displayed and the form did not submit.
+Website behaves as expected, error message was displayed and the form did not submit.
 
 Scenario Four - Missing Required Field Email
 1. Navigate to ELITE | Luxury Cars Page
@@ -572,7 +571,7 @@ Expected:
 
 The form does not submit, and an error is displayed to tell the user that the field is required.
 
-Website behave as expected, error message was displayed and the form did not submit.
+Website behaves as expected, error message was displayed and the form did not submit.
 
 Scenario Five - Missing Required Field When would you like to visit us
 1. Navigate to ELITE | Luxury Cars Page
@@ -597,7 +596,7 @@ Expected:
 
 The form does not submit, and an error is displayed to tell the user that the field is required.
 
-Website behave as expected, error message was displayed and the form did not submit.
+Website behaves as expected, error message was displayed and the form did not submit.
 
 Scenario Six - Incorrect Email Format
 1. Navigate to ELITE | Luxury Cars Page
@@ -622,9 +621,9 @@ Expected:
 
 The form dose not submit, and an error is displayed to tell the user that a valid email is required and the format it should be in.
 
-Website behave as expected, error message was displayed and the form did not submit.
+Website behaves as expected, error message was displayed and the form did not submit.
  
-##Footer Social Media Icons / Links
+## Footer Social Media Icons / Links
 
 -Testing was performed on the Font Awesome Social Media icons in the navigation menu and footer to ensure that each one opened in a new tab and that each one had a hover effect of zooming out. 
 
@@ -646,7 +645,7 @@ On a desktop page in index.html when clicking on the next button in the slider t
 
 ## Deployment 
 
-**Version Control
+**Version Control**
 
 -The site was created using the GitPod code editor and pushed to GitHub to the repository 'Elite-Luxury-Cars'.
 
